@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Форма</title>
+  <style>
+    * {
+      font-family: 'Courier New', Courier, monospace;
+    }
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+    }
+    legend {
+      display: block;
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    label, input, select, textarea {
+      display: block;
+      width: 35%;
+      margin-bottom: 10px;
+      height: 20px;
+      font-size: 15px;
+    }
+    label {
+      line-height: 20px;
+    }
+    select {
+      width: 36% !important;
+    }
+    .num {
+      width: 5%;
+    }
+    .course {
+      width: 3%;
+      height: 12px;
+    }
+    button {
+      width: 15%;
+      height: 25px;
+    }
+    .error-message {
+      color: red;
+      font-size: 12px;
+      width: 100%;
+      text-align: right;
+      margin-bottom: 10px;
+      margin-right: 212px;
+    }
+  </style>
+</head>
+<body>
+  <form id="myForm" method="post">
+    <legend>Заполните форму</legend>
+    <label>Фамилия</label>
+    <input type="text" id="lastName">
+    <div id="lastNameError" class="error-message"></div>
+
+    <label>Имя</label>
+    <input type="text" id="firstName">
+    <div id="firstNameError" class="error-message"></div>
+
+    <label>E-mail</label>
+    <input type="email" id="email">
+    <div id="emailError" class="error-message"></div>
+
+    <label>Телефон <font style="font-size: 10px;">(0xx)xxx-xx-xx</font></label>
+    <input type="tel" id="phone">
+    <div id="phoneError" class="error-message"></div>
+
+    <label>Город</label>
+    <select id="city">
+      <option>Выберите город</option>
+      <option>Брест</option>
+      <option>Витебск</option>
+      <option>Гомель</option>
+      <option>Гродно</option>
+      <option>Минск</option>
+      <option>Могилев</option>
+    </select>
+    <div id="cityError" class="error-message"></div>
+
+    <label>Я учусь в БГТУ</label>
+    <input type="checkbox" id="studyCheckbox">
+
+    <label>На каком курсе вы учитесь?</label>
+    <input type="radio" class="course" name="course" value="1" required>
+    <label class="num">1</label>
+    <input type="radio" class="course" name="course" value="2" required>
+    <label class="num">2</label>
+    <input type="radio" class="course" name="course" value="3" required>
+    <label class="num">3</label>
+    <input type="radio" class="course" name="course" value="4" required>
+    <label class="num">4</label>
+    <div id="courseError" class="error-message"></div>
+    
+    <label>Расскажите о себе</label>
+    <textarea id="about"></textarea>
+    <div id="aboutError" class="error-message"></div>
+
+    <button type="submit">Проверить</button>
+  </form>
+  <script src="form.js"></script>
+</body>
+</html>

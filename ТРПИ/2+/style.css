@@ -1,0 +1,78 @@
+* {
+    font-family: Consolas;
+  }
+#container {
+    width: 900px;
+    height: 400px;
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    background-color: cornsilk;
+}
+.cup {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: -30px;
+    background-image: url("thimble.png");
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+    z-index: 100;
+    background-size: 100% 100%;
+}
+.lift-animation {
+    animation: liftAndLower 2s ease-in-out; /* Применяем анимацию */
+    animation-fill-mode: forwards; /* Сохраняем состояние анимации после ее завершения */
+}
+#cup1 {
+    left: -150px;
+}
+#cup3 {
+    left: 150px;
+}
+#ball {
+    width: 50px;
+    height: 50px;
+    background-color: deepskyblue;
+    box-shadow: inset -5px -5px 10px darkblue;
+    position: absolute;
+    left: 175px;
+    border-radius: 50%;
+    display: none;
+    bottom: -20px;
+    z-index: 99;
+}
+#table {
+    display: block;
+    width: 900px;
+    height: 50px;
+    background-color: burlywood;
+    border: 1px solid black;
+    top: -1px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#result {
+    margin-top: 10px;
+}
+@keyframes liftAndLower {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-75px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

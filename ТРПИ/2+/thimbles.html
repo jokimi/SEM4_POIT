@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Игра "Наперстки"</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="display: block; width: 100%; text-align: center;">Игра "Наперстки"</h1>
+  <div style="display: flex; margin-left: auto; margin-right: auto; width: 80%; flex-wrap: wrap; gap: 2%; justify-content: center;">
+    <label for="cupWidth" style="display: block; width: 16%; border: 1px solid black; text-align: center;">Ширина наперстков:</label>
+    <input type="number" id="cupWidth" value="100" style="display: block; width: 10%;">
+    <label for="cupHeight" style="display: block; width: 16%; border: 1px solid black; text-align: center;">Высота наперстков:</label>
+    <input type="number" id="cupHeight" value="150" style="display: block; width: 10%;">
+    <label for="ballDiameter" style="display: block; width: 16%; border: 1px solid black; text-align: center;">Диаметр шарика:</label>
+    <input type="number" id="ballDiameter" value="50" style="display: block; width: 10%;">
+    <button onclick="updateGame()" style="display: block; width: 8%; margin-left: 60px; margin-right: 60px; margin-top: 10px;">Сохранить</button>
+  </div>
+  <div id="container">
+    <div id="cup1" class="cup" onclick="guessCup(1)"></div>
+    <div id="cup2" class="cup" onclick="guessCup(2)"></div>
+    <div id="cup3" class="cup" onclick="guessCup(3)"></div>
+    <div id="ball"></div>
+  </div>
+  <div id="table"></div>
+  <div id="result" style="display: block; font-size: 20px; width: 100%; text-align: center;"></div>
+  <div id="counter" style="display: block; font-size: 20px; width: 100%; text-align: center;">Результат: 0</div>
+  <button id="resetButton" style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px;">Обновить</button>
+  <script src="game.js"></script>
+</body>
+</html>
