@@ -1,0 +1,1131 @@
+﻿     0>Пути поиска, используемые для $(MSBuildExtensionsPath): C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Попытка импортировать "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props" с помощью пути расширений C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild
+       Повторное назначение свойства: $(MSBuildProjectExtensionsPath)="D:\BSTU\4 sem\МП\Лабы\1\1\lab1\obj\" (предыдущее значение: "obj\") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Microsoft.Common.props (56,5)
+       Пути поиска, используемые для $(MSBuildExtensionsPath): C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Попытка импортировать "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\*" с помощью пути расширений C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild
+       Property 'VisualStudioVersion' with value '17.0' expanded from the environment.
+       Свойство "Configuration" является глобальным и не подлежит изменению.
+       Пути поиска, используемые для $(MSBuildExtensionsPath): C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Пути поиска, используемые для $(MSBuildExtensionsPath): C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Свойство "Configuration" является глобальным и не подлежит изменению.
+       Свойство "LangID" является глобальным и не подлежит изменению.
+       Свойство "SolutionDir" является глобальным и не подлежит изменению.
+       Property 'LOCALAPPDATA' with value 'C:\Users\Admin\AppData\Local' expanded from the environment.
+       Повторное назначение свойства: $(UseDebugLibraries)="true" (предыдущее значение: "false") для D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj (31,5)
+       Повторное назначение свойства: $(CharacterSet)="Unicode" (предыдущее значение: "NotSet") для D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj (33,5)
+       Property 'PROCESSOR_ARCHITECTURE' with value 'AMD64' expanded from the environment.
+       Повторное назначение свойства: $(WindowsSdkDir_10)="C:\Program Files (x86)\Windows Kits\10\" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.props (18,5)
+       Повторное назначение свойства: $(NETFXSDK_Version)="4.8" (предыдущее значение: "4.8.1") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.props (46,5)
+       Повторное назначение свойства: $(NETFXKitsDir)="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.props (51,5)
+       Повторное назначение свойства: $(NETFXSDKDir)="C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.props (54,5)
+       Повторное назначение свойства: $(WindowsSDK_ExecutablePath_x86)="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools" (предыдущее значение: "C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x86;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.props (209,5)
+       Повторное назначение свойства: $(WindowsSDK_ExecutablePath_x64)="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64" (предыдущее значение: "C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.props (210,5)
+       Повторное назначение свойства: $(TargetExt)=".exe" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (28,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (89,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (90,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (91,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (92,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (93,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (94,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (95,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (96,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (97,5)
+       Повторное назначение свойства: $(VC_ExecutablePath_Loc)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;;;;;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostArm64\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\arm\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\1049;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\1049;;;;;;;;;;;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (98,5)
+       Property 'COMPUTERNAME' with value 'DESKTOP-3SMK9QM' expanded from the environment.
+       Повторное назначение свойства: $(RemoteDebuggerDeployDebugCppRuntime)="true" (предыдущее значение: "false") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (154,5)
+       Повторное назначение свойства: $(MultiProcMaxCount)="0" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props (215,5)
+       Повторное назначение свойства: $(EspXtensions)="EnumIndex.dll;CppCoreCheck.dll;" (предыдущее значение: "CppCoreCheck.dll;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (21,5)
+       Повторное назначение свойства: $(EspXtensions)="HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;" (предыдущее значение: "EnumIndex.dll;CppCoreCheck.dll;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (24,5)
+       Повторное назначение свойства: $(EspXtensions)="VariantClear.dll;HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;" (предыдущее значение: "HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (27,5)
+       Повторное назначение свойства: $(ConcurrencyCheckPath)="\ConcurrencyCheck.dll" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\ConcurrencyCheck.dll") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (33,5)
+       Повторное назначение свойства: $(EspXtensions)="ConcurrencyCheck.dll;VariantClear.dll;HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;" (предыдущее значение: "VariantClear.dll;HResultCheck.dll;EnumIndex.dll;CppCoreCheck.dll;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (34,5)
+       Повторное назначение свойства: $(MsvcAnalysisToolsPath)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props (28,5)
+       Повторное назначение свойства: $(MsvcAnalysisPluginPath)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props (33,5)
+       Повторное назначение свойства: $(_PropertySheetDisplayName)="Unicode Support" (предыдущее значение: "Core Windows Libraries") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.unicodesupport.props (15,5)
+       Повторное назначение свойства: $(_PropertySheetDisplayName)="Application" (предыдущее значение: "Unicode Support") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Application.props (15,5)
+       Property 'Path' with value 'C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;D:\Apps\111\R2022b\runtime\win64;D:\Applications\bin;D:\matlabus\R2022b\runtime\win64;D:\Applications\MatLab\runtime\win64;D:\Applications\MatLab\bin;D:\Applications\chisla\bin;C:\Приложения\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Admin\AppData\Local\Programs\Python\Launcher\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32;C:\Приложения\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\.dotnet\tools' expanded from the environment.
+       Property 'SystemRoot' with value 'C:\Windows' expanded from the environment.
+       Свойство "SolutionExt" является глобальным и не подлежит изменению.
+       Повторное назначение свойства: $(ExtensionsToDeleteOnClean)="*.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;D:\BSTU\4 sem\МП\Лабы\1\1\Debug\lab1.exe.manifest;D:\BSTU\4 sem\МП\Лабы\1\1\Debug\lab1.tlb;D:\BSTU\4 sem\МП\Лабы\1\1\Debug\lab1.pdb;D:\BSTU\4 sem\МП\Лабы\1\1\Debug\lab1.exe;D:\BSTU\4 sem\МП\Лабы\1\1\Debug\lab1.bsc;D:\BSTU\4 sem\МП\Лабы\1\1\Debug\lab1.ilk;D:\BSTU\4 sem\МП\Лабы\1\1\Debug\lab1.exe.intermediate.manifest;Debug\lab1.vcxproj.FileListAbsolute.txt" (предыдущее значение: "*.cdf;*.cache;*.obj;*.obj.enc;*.ilk;*.ipdb;*.iobj;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets (40,5)
+       Повторное назначение свойства: $(DebugType)="none" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets (32,5)
+       Пути поиска, используемые для $(MSBuildExtensionsPath): C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Пути поиска, используемые для $(MSBuildExtensionsPath): C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Свойство "Configuration" является глобальным и не подлежит изменению.
+       Повторное назначение свойства: $(_DocumentationFileProduced)="false" (предыдущее значение: "true") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (185,5)
+       Свойство "DevEnvDir" является глобальным и не подлежит изменению.
+       Свойство "SolutionName" является глобальным и не подлежит изменению.
+       Свойство "SolutionFileName" является глобальным и не подлежит изменению.
+       Свойство "SolutionPath" является глобальным и не подлежит изменению.
+       Свойство "SolutionDir" является глобальным и не подлежит изменению.
+       Свойство "SolutionExt" является глобальным и не подлежит изменению.
+       Повторное назначение свойства: $(AutoUnifyAssemblyReferences)="false" (предыдущее значение: "true") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (369,5)
+       Повторное назначение свойства: $(DelaySign)="" (предыдущее значение: "false") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (568,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;" (предыдущее значение: "{CandidateAssemblyFiles}") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (637,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem}" (предыдущее значение: "{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (638,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory}" (предыдущее значение: "{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem}") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (639,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};" (предыдущее значение: "{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory}") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (640,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx}" (предыдущее значение: "{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (641,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx};{AssemblyFolders}" (предыдущее значение: "{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx}") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (642,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx};{AssemblyFolders};{GAC}" (предыдущее значение: "{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx};{AssemblyFolders}") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (643,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}" (предыдущее значение: "{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx};{AssemblyFolders};{GAC}") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (644,5)
+       Повторное назначение свойства: $(AssemblySearchPaths)="{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName};D:\BSTU\4 sem\МП\Лабы\1\1\Debug\" (предыдущее значение: "{CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (645,5)
+       Повторное назначение свойства: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (3789,5)
+       Повторное назначение свойства: $(_SGenGenerateSerializationAssembliesConfig)="Off" (предыдущее значение: "Auto") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (3790,5)
+       Повторное назначение свойства: $(_TargetsThatPrepareProjectReferences)="
+             AssignProjectConfiguration;
+             _SplitProjectReferencesByFileExistence
+           " (предыдущее значение: "_SplitProjectReferencesByFileExistence") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (4927,5)
+       Повторное назначение свойства: $(_CodeAnalysisTreatWarningsAsErrors)="false" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (125,5)
+       Повторное назначение свойства: $(CAExcludePath)="C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;" (предыдущее значение: "C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (239,5)
+       Повторное назначение свойства: $(CAExcludePath)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;" (предыдущее значение: "C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (240,5)
+       Повторное назначение свойства: $(CAExcludePath)="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;" (предыдущее значение: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (241,5)
+       Повторное назначение свойства: $(PrepareForBuildDependsOn)=";GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables" (предыдущее значение: ";GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (244,5)
+       Повторное назначение свойства: $(PrepareResourcesDependsOn)="
+             XamlMarkupCompilePass1;
+             XamlMarkupCompilePass2;
+             
+             ;
+             PrepareResourceNames;
+             ResGen;
+             CompileLicxFiles
+            
+           " (предыдущее значение: "
+             ;
+             PrepareResourceNames;
+             ResGen;
+             CompileLicxFiles
+           ") для C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (35,5)
+       Повторное назначение свойства: $(ResolveReferencesDependsOn)="
+             
+             BeforeResolveReferences;
+             AssignProjectConfiguration;
+             ResolveProjectReferences;
+             FindInvalidProjectReferences;
+             ResolveNativeReferences;
+             ResolveAssemblyReferences;
+             GenerateBindingRedirects;
+             ResolveComReferences;
+             AfterResolveReferences
+           ;
+             ResolveTestReferences
+           " (предыдущее значение: "
+             BeforeResolveReferences;
+             AssignProjectConfiguration;
+             ResolveProjectReferences;
+             FindInvalidProjectReferences;
+             ResolveNativeReferences;
+             ResolveAssemblyReferences;
+             GenerateBindingRedirects;
+             ResolveComReferences;
+             AfterResolveReferences
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets (4,5)
+       Пути поиска, используемые для $(MSBuildExtensionsPath): C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Попытка импортировать "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportAfter\*" с помощью пути расширений C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild
+       Повторное назначение свойства: $(ProjectLockFile)="obj\project.assets.json" (предыдущее значение: "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\obj\project.assets.json") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (74,5)
+       Повторное назначение свойства: $(ResolveAssemblyReferencesDependsOn)="
+             ResolveProjectReferences;
+             FindInvalidProjectReferences;
+             GetFrameworkPaths;
+             GetReferenceAssemblyPaths;
+             PrepareForBuild;
+             ResolveSDKReferences;
+             ExpandSDKReferences;
+           ;ResolveNuGetPackageAssets" (предыдущее значение: "
+             ResolveProjectReferences;
+             FindInvalidProjectReferences;
+             GetFrameworkPaths;
+             GetReferenceAssemblyPaths;
+             PrepareForBuild;
+             ResolveSDKReferences;
+             ExpandSDKReferences;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (185,5)
+       Повторное назначение свойства: $(PrepareResourcesDependsOn)="ResolveNuGetPackageAssets;
+             XamlMarkupCompilePass1;
+             XamlMarkupCompilePass2;
+             
+             ;
+             PrepareResourceNames;
+             ResGen;
+             CompileLicxFiles
+            
+           " (предыдущее значение: "
+             XamlMarkupCompilePass1;
+             XamlMarkupCompilePass2;
+             
+             ;
+             PrepareResourceNames;
+             ResGen;
+             CompileLicxFiles
+            
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (186,5)
+       Пути поиска, используемые для $(MSBuildExtensionsPath): C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Повторное назначение свойства: $(DebugType)="" (предыдущее значение: "none") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets (39,5)
+       Повторное назначение свойства: $(BuildDependsOn)="
+             _PrepareForBuild;
+             
+             ResolveReferences;
+             PrepareForBuild;
+             InitializeBuildStatus;
+             BuildGenerateSources;
+             BuildCompile;
+             BuildLink;
+           ;
+             AfterBuild;
+             IncrementalClean;
+             FinalizeBuildStatus;
+           " (предыдущее значение: "
+             BeforeBuild;
+             CoreBuild;
+             AfterBuild
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets (121,5)
+       Повторное назначение свойства: $(RebuildDependsOn)="
+             _PrepareForRebuild;
+             
+             BeforeRebuild;
+             Clean;
+             Build;
+             AfterRebuild;
+           ;
+           " (предыдущее значение: "
+             BeforeRebuild;
+             Clean;
+             Build;
+             AfterRebuild;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets (129,5)
+       Повторное назначение свойства: $(CleanDependsOn)="
+             _PrepareForClean;
+             
+             BeforeClean;
+             UnmanagedUnregistration;
+             CoreClean;
+             CleanReferencedProjects;
+             CleanPublishFolder;
+             AfterClean
+           ;
+           " (предыдущее значение: "
+             BeforeClean;
+             UnmanagedUnregistration;
+             CoreClean;
+             CleanReferencedProjects;
+             CleanPublishFolder;
+             AfterClean
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets (134,5)
+       Повторное назначение свойства: $(BeforeBuildGenerateSourcesTargets)="
+             
+             ;
+             BeforeBuildGenerateSources;
+           ;
+           " (предыдущее значение: "
+             ;
+             BeforeBuildGenerateSources;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (59,5)
+       Повторное назначение свойства: $(AfterBuildGenerateSourcesTargets)="
+             
+             ;
+             AfterBuildGenerateSources;
+           ;
+             AfterBuildGenerateSourcesEvent;
+           " (предыдущее значение: "
+             ;
+             AfterBuildGenerateSources;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (70,5)
+       Повторное назначение свойства: $(BuildGenerateSourcesAction)="_BuildGenerateSourcesAction" (предыдущее значение: "Build") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (140,5)
+       Повторное назначение свойства: $(BuildCompileAction)="_BuildCompileAction" (предыдущее значение: "Build") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (141,5)
+       Повторное назначение свойства: $(BuildLinkAction)="_BuildLinkAction" (предыдущее значение: "Build") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (142,5)
+       Повторное назначение свойства: $(DetermineProjectTypeTargets)="_PrepareForReferenceResolution;
+             ;
+             AddExternalIncludDirectoriesToPaths
+           " (предыдущее значение: "
+             ;
+             AddExternalIncludDirectoriesToPaths
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (249,5)
+       Повторное назначение свойства: $(ResolveReferencesDependsOn)="_PrepareForReferenceResolution;ComputeCrtSDKReference;
+             
+             BeforeResolveReferences;
+             AssignProjectConfiguration;
+             ResolveProjectReferences;
+             FindInvalidProjectReferences;
+             ResolveNativeReferences;
+             ResolveAssemblyReferences;
+             GenerateBindingRedirects;
+             ResolveComReferences;
+             AfterResolveReferences
+           ;
+             ResolveTestReferences
+           " (предыдущее значение: "
+             
+             BeforeResolveReferences;
+             AssignProjectConfiguration;
+             ResolveProjectReferences;
+             FindInvalidProjectReferences;
+             ResolveNativeReferences;
+             ResolveAssemblyReferences;
+             GenerateBindingRedirects;
+             ResolveComReferences;
+             AfterResolveReferences
+           ;
+             ResolveTestReferences
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (311,5)
+       Повторное назначение свойства: $(ResolveAssemblyReferencesDependsOn)="_PrepareForReferenceResolution;
+             ResolveProjectReferences;
+             FindInvalidProjectReferences;
+             GetFrameworkPaths;
+             GetReferenceAssemblyPaths;
+             PrepareForBuild;
+             ResolveSDKReferences;
+             ExpandSDKReferences;
+           ;ResolveNuGetPackageAssets" (предыдущее значение: "
+             ResolveProjectReferences;
+             FindInvalidProjectReferences;
+             GetFrameworkPaths;
+             GetReferenceAssemblyPaths;
+             PrepareForBuild;
+             ResolveSDKReferences;
+             ExpandSDKReferences;
+           ;ResolveNuGetPackageAssets") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (312,5)
+       Повторное назначение свойства: $(ResolveSDKReferencesDependsOn)="_PrepareForReferenceResolution;ComputeCrtSDKReference;
+             GetInstalledSDKLocations
+           " (предыдущее значение: "
+             GetInstalledSDKLocations
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (313,5)
+       Повторное назначение свойства: $(ComputeCompileInputsTargets)="
+             
+             ;
+             GenerateTargetFrameworkMonikerAttribute;
+           ;
+             ComputeMIDLGeneratedCompileInputs;
+           " (предыдущее значение: "
+             ;
+             GenerateTargetFrameworkMonikerAttribute;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (622,5)
+       Повторное назначение свойства: $(ComputeLinkInputsTargets)="
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           " (предыдущее значение: "
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (935,5)
+       Повторное назначение свойства: $(GetTargetPathDependsOn)="_PrepareForReferenceResolution;GetResolvedWinMD;" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1105,5)
+       Повторное назначение свойства: $(ComputeCompileInputsTargets)="
+             
+             
+             ;
+             GenerateTargetFrameworkMonikerAttribute;
+           ;
+             ComputeMIDLGeneratedCompileInputs;
+           ;
+             ComputeCLInputPDBName;
+             ComputeReferenceCLInput;
+             WarnCompileDuplicatedFilename
+           " (предыдущее значение: "
+             
+             ;
+             GenerateTargetFrameworkMonikerAttribute;
+           ;
+             ComputeMIDLGeneratedCompileInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1131,5)
+       Повторное назначение свойства: $(ComputeLinkInputsTargets)="
+             
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           ;
+             ComputeCustomBuildOutput;
+           " (предыдущее значение: "
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1183,5)
+       Повторное назначение свойства: $(ComputeLibInputsTargets)="
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           " (предыдущее значение: "
+             ;
+             ComputeRCGeneratedLibInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1190,5)
+       Повторное назначение свойства: $(ComputeImpLibInputsTargets)="
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeRCGeneratedImpLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           " (предыдущее значение: "
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeRCGeneratedImpLibInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1197,5)
+       Повторное назначение свойства: $(ComputeLinkInputsTargets)="
+             
+             
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLinkInputs;
+           " (предыдущее значение: "
+             
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1258,5)
+       Повторное назначение свойства: $(ComputeLibInputsTargets)="
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLibInputs;
+           " (предыдущее значение: "
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1273,5)
+       Повторное назначение свойства: $(ComputeImpLibInputsTargets)="
+             
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeRCGeneratedImpLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedImpLibInputs;
+           " (предыдущее значение: "
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeRCGeneratedImpLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1288,5)
+       Повторное назначение свойства: $(ComputeLinkInputsTargets)="
+             
+             
+             
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLinkInputs;
+           ;
+             ComputeLinkInputsFromProject;
+           " (предыдущее значение: "
+             
+             
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLinkInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1319,5)
+       Повторное назначение свойства: $(ComputeLibInputsTargets)="
+             
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLibInputs;
+           ;
+             ComputeLibInputsFromProject;
+           " (предыдущее значение: "
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLibInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1337,5)
+       Повторное назначение свойства: $(ComputeImpLibInputsTargets)="
+             
+             
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeRCGeneratedImpLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedImpLibInputs;
+           ;
+             ComputeImpLibInputsFromProject;
+           " (предыдущее значение: "
+             
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeRCGeneratedImpLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedImpLibInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1355,5)
+       Повторное назначение свойства: $(ComputeLinkInputsTargets)="
+             
+             
+             
+             
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLinkInputs;
+           ;
+             ComputeLinkInputsFromProject;
+           ;
+             ComputeReferenceLinkInputs;
+           " (предыдущее значение: "
+             
+             
+             
+             
+             ;
+             ComputeRCGeneratedLinkInputs;
+           ;
+             ComputeManifestGeneratedLinkerInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLinkInputs;
+           ;
+             ComputeLinkInputsFromProject;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1499,5)
+       Повторное назначение свойства: $(ComputeLibInputsTargets)="
+             
+             
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLibInputs;
+           ;
+             ComputeLibInputsFromProject;
+           ;
+             ComputeReferenceLibInputs;
+           " (предыдущее значение: "
+             
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLibInputs;
+           ;
+             ComputeLibInputsFromProject;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1537,5)
+       Повторное назначение свойства: $(ComputeLibInputsTargets)="
+             ComputeLibAdditionalOptions;
+             
+             
+             
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLibInputs;
+           ;
+             ComputeLibInputsFromProject;
+           ;
+             ComputeReferenceLibInputs;
+           
+           " (предыдущее значение: "
+             
+             
+             
+             
+             ;
+             ComputeRCGeneratedLibInputs;
+           ;
+             ComputeCustomBuildOutput;
+           ;
+             ComputeCLGeneratedLibInputs;
+           ;
+             ComputeLibInputsFromProject;
+           ;
+             ComputeReferenceLibInputs;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1594,5)
+       Повторное назначение свойства: $(GetProjectInfoForReferenceDependsOn)="
+             
+             ;
+             AddPublicIncludeDirectoriesToProjectsInfoForReference;
+           ;
+             AddPublicBMIsToProjectsInfoForReference;
+             AddDeployRecipeFileToProjectsInfoForReference;
+             AddLibrariesToProjectsInfoForReference;
+           " (предыдущее значение: "
+             ;
+             AddPublicIncludeDirectoriesToProjectsInfoForReference;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (1789,5)
+       Повторное назначение свойства: $(DocumentationProjectOutputGroupDependsOn)="ResolvedXDCMake;ComputeCLCompileGeneratedXDCFiles" (предыдущее значение: "") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (2176,5)
+       Повторное назначение свойства: $(ContentFilesProjectOutputGroupDependsOn)="PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc" (предыдущее значение: "PrepareForBuild;AssignTargetPaths") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets (2242,5)
+       Повторное назначение свойства: $(ComputeCompileInputsTargets)="
+             
+             
+             
+             ;
+             GenerateTargetFrameworkMonikerAttribute;
+           ;
+             ComputeMIDLGeneratedCompileInputs;
+           ;
+             ComputeCLInputPDBName;
+             ComputeReferenceCLInput;
+             WarnCompileDuplicatedFilename
+           ;
+             ;
+             FixupCLCompileOptions;
+           " (предыдущее значение: "
+             
+             
+             ;
+             GenerateTargetFrameworkMonikerAttribute;
+           ;
+             ComputeMIDLGeneratedCompileInputs;
+           ;
+             ComputeCLInputPDBName;
+             ComputeReferenceCLInput;
+             WarnCompileDuplicatedFilename
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets (308,5)
+       Повторное назначение свойства: $(BuildingProject)="true" (предыдущее значение: "false") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets (2007,5)
+       Повторное назначение свойства: $(ContentFilesProjectOutputGroupDependsOn)="PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc;_CreateCopyFileItems;" (предыдущее значение: "PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets (2560,5)
+       Повторное назначение свойства: $(PrepareForBuildDependsOn)="_CheckWindowsSDKInstalled;;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables" (предыдущее значение: ";GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.targets (16,5)
+       Повторное назначение свойства: $(CleanDependsOn)="
+             
+             _PrepareForClean;
+             
+             BeforeClean;
+             UnmanagedUnregistration;
+             CoreClean;
+             CleanReferencedProjects;
+             CleanPublishFolder;
+             AfterClean
+           ;
+           ;
+             CppClean
+           " (предыдущее значение: "
+             _PrepareForClean;
+             
+             BeforeClean;
+             UnmanagedUnregistration;
+             CoreClean;
+             CleanReferencedProjects;
+             CleanPublishFolder;
+             AfterClean
+           ;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets (22,5)
+       Повторное назначение свойства: $(CppCleanDependsOn)="
+             BeforeCppClean;
+             ;
+             CoreCppClean;
+             AfterCppClean;
+           ;PGInstrumentedClean" (предыдущее значение: "
+             BeforeCppClean;
+             ;
+             CoreCppClean;
+             AfterCppClean;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets (92,5)
+       Повторное назначение свойства: $(BuildDependsOn)="SetTelemetryEnvironmentVariables;
+             _PrepareForBuild;
+             
+             ResolveReferences;
+             PrepareForBuild;
+             InitializeBuildStatus;
+             BuildGenerateSources;
+             BuildCompile;
+             BuildLink;
+           ;
+             AfterBuild;
+             IncrementalClean;
+             FinalizeBuildStatus;
+           " (предыдущее значение: "
+             _PrepareForBuild;
+             
+             ResolveReferences;
+             PrepareForBuild;
+             InitializeBuildStatus;
+             BuildGenerateSources;
+             BuildCompile;
+             BuildLink;
+           ;
+             AfterBuild;
+             IncrementalClean;
+             FinalizeBuildStatus;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets (538,5)
+       Повторное назначение свойства: $(RebuildDependsOn)="SetTelemetryEnvironmentVariables;
+             _PrepareForRebuild;
+             
+             BeforeRebuild;
+             Clean;
+             Build;
+             AfterRebuild;
+           ;
+           " (предыдущее значение: "
+             _PrepareForRebuild;
+             
+             BeforeRebuild;
+             Clean;
+             Build;
+             AfterRebuild;
+           ;
+           ") для C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets (539,5)
+       Переопределение целевого объекта "GenerateTargetFrameworkMonikerAttribute" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "GenerateTargetFrameworkMonikerAttribute" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets".
+       Переопределение целевого объекта "Build" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "Build" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets".
+       Переопределение целевого объекта "Rebuild" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "Rebuild" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets".
+       Переопределение целевого объекта "AfterBuild" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "AfterBuild" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets".
+       Переопределение целевого объекта "PrepareForBuild" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "PrepareForBuild" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "GetTargetPath" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "GetTargetPath" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "ComputeIntermediateSatelliteAssemblies" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "ComputeIntermediateSatelliteAssemblies" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "ClCompile" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "ClCompile" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "ResourceCompile" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "ResourceCompile" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "Lib" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "Lib" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "Link" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "Link" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "AllProjectOutputGroups" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "AllProjectOutputGroups" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "BuiltProjectOutputGroup" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "BuiltProjectOutputGroup" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "DebugSymbolsProjectOutputGroup" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "DebugSymbolsProjectOutputGroup" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "DocumentationProjectOutputGroup" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "DocumentationProjectOutputGroup" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "SourceFilesProjectOutputGroup" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "SourceFilesProjectOutputGroup" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "ContentFilesProjectOutputGroup" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "ContentFilesProjectOutputGroup" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "AllProjectOutputGroupsDependencies" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "AllProjectOutputGroupsDependencies" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "BuiltProjectOutputGroupDependencies" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "BuiltProjectOutputGroupDependencies" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "DebugSymbolsProjectOutputGroupDependencies" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "DebugSymbolsProjectOutputGroupDependencies" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "DocumentationProjectOutputGroupDependencies" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "DocumentationProjectOutputGroupDependencies" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets".
+       Переопределение целевого объекта "PreBuildEvent" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "PreBuildEvent" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "PostBuildEvent" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "PostBuildEvent" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "ClCompile" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "ClCompile" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "Link" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "Link" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "Lib" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "Lib" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "ImpLib" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "ImpLib" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "Midl" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "Midl" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "ResourceCompile" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "ResourceCompile" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "BeforeResGen" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "BeforeResGen" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "ResGen" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "ResGen" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "GenerateSatelliteAssemblies" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "GenerateSatelliteAssemblies" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "Manifest" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "Manifest" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "XdcMake" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "XdcMake" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "BscMake" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" целевым объект "BscMake" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "ComputeMetaGenInputs" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MetaGen.targets" целевым объект "ComputeMetaGenInputs" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "GetNativeManifest" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "GetNativeManifest" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
+       Переопределение целевого объекта "GetTargetPathWithTargetPlatformMoniker" в проекте "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" целевым объект "GetTargetPathWithTargetPlatformMoniker" из проекта "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets".
+Сборка начата 06.02.2024 12:51:03.
+Уровень детализации журнала: Detailed.     1>Проект "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" в узле 2 (целевые объекты Build).
+     1>Целевой объект "EnableIntermediateOutputPathMismatchWarning" пропущен из-за невыполненного условия; выражение ('$(RestoreProjectStyle)' == 'PackageReference') равно ('' == 'PackageReference').
+     1>Целевой объект "_CheckForInvalidConfigurationAndPlatform" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "SetTelemetryEnvironmentVariables" зависит от него):
+       Задача "Error" пропущена из-за невыполненного условия; выражение ( '$(_InvalidConfigurationError)' == 'true' ) равно ( '' == 'true' ).
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ( '$(_InvalidConfigurationWarning)' == 'true' ) равно ( '' == 'true' ).
+       Используется задача "Message" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "Message"
+         Configuration=Debug
+       Выполнение задачи "Message" завершено.
+       Задача "Message"
+         Platform=Win32
+       Выполнение задачи "Message" завершено.
+       Задача "Error" пропущена из-за невыполненного условия; выражение ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) равно ('D:\BSTU\4 sem\МП\Лабы\1\1\Debug\' != '' and !HasTrailingSlash('D:\BSTU\4 sem\МП\Лабы\1\1\Debug\')).
+       Задача "Error" пропущена из-за невыполненного условия; выражение ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) равно ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+       Задача "Error" пропущена из-за невыполненного условия; выражение ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) равно ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Задача "Error" пропущена из-за невыполненного условия; выражение ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) равно ( 'D:\BSTU\4 sem\МП\Лабы\1\1\lab1\obj\' != '' And 'D:\BSTU\4 sem\МП\Лабы\1\1\lab1\obj\' != 'D:\BSTU\4 sem\МП\Лабы\1\1\lab1\obj\' ).
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) равно ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'D:\BSTU\4 sem\МП\Лабы\1\1\lab1\obj\' ).
+     1>Сборка целевого объекта "_CheckForInvalidConfigurationAndPlatform" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "_CheckForInvalidConfigurationAndPlatform" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "SetTelemetryEnvironmentVariables" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "Build" зависит от него):
+       Используется задача "SetEnv" из сборки "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
+       Задача "SetEnv"
+         VSTEL_SolutionSessionID={6B7F8468-86D3-4B78-94F0-9EF2E974EFBE}
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         VSTEL_CurrentSolutionBuildID=2022932757
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         VSTEL_ProjectID={c514b78c-740c-415e-b208-f34dde3a720b}
+       Выполнение задачи "SetEnv" завершено.
+     1>Сборка целевого объекта "SetTelemetryEnvironmentVariables" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "_PrepareForBuild" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "Build" зависит от него):
+       Задача "CreateItem" пропущена из-за невыполненного условия; выражение ('%(CustomBuild.IncludeFileToTool)'!='') равно (''!='').
+     1>Сборка целевого объекта "_PrepareForBuild" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "_PrepareForReferenceResolution" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(WarnAboutIndividualManagedFiles)' == 'true') равно ('' == 'true').
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('$(_REFERENCE_DEBUG)'=='true') равно (''=='true').
+     1>Сборка целевого объекта "_PrepareForReferenceResolution" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "ComputeCrtSDKReference" пропущен из-за невыполненного условия; выражение ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') равно ('auxil.cpp;fibonacci.cpp;lab1.cpp'!='' and 'false'=='true' and '' != 'false').
+     1>Целевой объект "BeforeResolveReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Сборка целевого объекта "BeforeResolveReferences" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "AssignProjectConfiguration" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+       Используется задача "AssignProjectConfiguration" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "AssignProjectConfiguration"
+       Выполнение задачи "AssignProjectConfiguration" завершено.
+     1>Сборка целевого объекта "AssignProjectConfiguration" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "AssignProjectConfiguration" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "_SplitProjectReferencesByFileExistence" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "PrepareProjectReferences" зависит от него):
+       Задача "ResolveNonMSBuildProjectOutput" пропущена из-за невыполненного условия; выражение ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') равно ('true'=='true' and ''!='').
+     1>Сборка целевого объекта "_SplitProjectReferencesByFileExistence" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "_AddOutputPathToGlobalPropertiesToRemove" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_GetProjectReferenceTargetFrameworkProperties" зависит от него):
+     1>Сборка целевого объекта "_AddOutputPathToGlobalPropertiesToRemove" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "_GetProjectReferenceTargetFrameworkProperties" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "PrepareProjectReferences" зависит от него):
+       Используется задача "MSBuild" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "MSBuild"
+       Выполнение задачи "MSBuild" завершено.
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.SkipGetTargetFrameworkProperties)' != 'true' and '$(EnableDynamicPlatformResolution)' == 'true') равно ('' != 'true' and '' == 'true').
+       Задача "GetReferenceNearestTargetFrameworkTask" пропущена из-за невыполненного условия; выражение ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+                                                               And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' == 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true') равно ('' != '' and '' != ''
+                                                               And 'true' == 'true' and '' != 'true').
+       Задача "GetReferenceNearestTargetFrameworkTask" пропущена из-за невыполненного условия; выражение ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+                                                               And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' != 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true') равно ('' != '' and '' != ''
+                                                               And 'true' != 'true' and '' != 'true').
+       Используется задача "SetRidAgnosticValueForProjects" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "SetRidAgnosticValueForProjects"
+       Выполнение задачи "SetRidAgnosticValueForProjects" завершено.
+     1>Сборка целевого объекта "_GetProjectReferenceTargetFrameworkProperties" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "_GetProjectReferencePlatformProperties" пропущен из-за невыполненного условия; выражение ('$(EnableDynamicPlatformResolution)' == 'true'
+                            and '$(BuildingInsideVisualStudio)' != 'true'
+                            and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true'
+                            and 'true' != 'true'
+                            and '' != '').
+     1>Целевой объект "PrepareProjectReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveProjectReferences" зависит от него):
+     1>Сборка целевого объекта "PrepareProjectReferences" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "_RemoveNameMetadataFromProjectReferenceItems" пропущен из-за невыполненного условия; выражение ('@(ProjectReference)'!='') равно (''!='').
+     1>Целевой объект "ResolveProjectReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '17.0' != '10.0' and '' != '').
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') равно ('' != '' and '' != '').
+     1>Сборка целевого объекта "ResolveProjectReferences" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "FindInvalidProjectReferences" пропущен из-за невыполненного условия; выражение ('$(FindInvalidProjectReferences)' == 'true') равно ('' == 'true').
+       Целевой объект "ResolveNativeReferences" пропущен из-за невыполненного условия; выражение ('@(NativeReference)'!='') равно (''!='').
+       Целевой объект "_PrepareForReferenceResolution" пропущен. Предыдущая сборка успешна.
+       Целевой объект "ResolveProjectReferences" пропущен. Предыдущая сборка успешна.
+       Целевой объект "FindInvalidProjectReferences" пропущен из-за невыполненного условия; выражение ('$(FindInvalidProjectReferences)' == 'true') равно ('' == 'true').
+     1>Целевой объект "GetFrameworkPaths" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+     1>Сборка целевого объекта "GetFrameworkPaths" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "_PrepareForReferenceResolution" пропущен. Предыдущая сборка успешна.
+       Целевой объект "GetFrameworkPaths" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "GetReferenceAssemblyPaths" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+       Задача "GetReferenceAssemblyPaths" пропущена из-за невыполненного условия; выражение ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) равно ('' != '' and ('' == '' or '' == '')).
+     1>Сборка целевого объекта "GetReferenceAssemblyPaths" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "AddExternalIncludDirectoriesToPaths" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Current.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "SetBuildDefaultEnvironmentVariables" зависит от него):
+     1>Сборка целевого объекта "AddExternalIncludDirectoriesToPaths" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "SetBuildDefaultEnvironmentVariables" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Current.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+       Задача "SetEnv"
+         PATH=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;D:\Apps\111\R2022b\runtime\win64;D:\Applications\bin;D:\matlabus\R2022b\runtime\win64;D:\Applications\MatLab\runtime\win64;D:\Applications\MatLab\bin;D:\Applications\chisla\bin;C:\Приложения\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Admin\AppData\Local\Programs\Python\Launcher\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32;C:\Приложения\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\.dotnet\tools;
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         LIB=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x86;;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\um\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x86;
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         LIBPATH=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x86;
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         INCLUDE=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\include;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         EXTERNAL_INCLUDE=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\include;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;
+       Выполнение задачи "SetEnv" завершено.
+     1>Сборка целевого объекта "SetBuildDefaultEnvironmentVariables" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "SetUserMacroEnvironmentVariables" пропущен из-за невыполненного условия; выражение ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') равно ('' != '' and '' != 'true').
+       Целевой объект "_PrepareForReferenceResolution" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "GetResolvedWinMD" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+     1>Сборка целевого объекта "GetResolvedWinMD" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "_CheckWindowsSDKInstalled" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(WindowsSDKInstalled)' != 'true') равно ('true' != 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true) равно ('false' != 'true' and 'true' != true).
+     1>Сборка целевого объекта "_CheckWindowsSDKInstalled" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "GetFrameworkPaths" пропущен. Предыдущая сборка успешна.
+       Целевой объект "GetReferenceAssemblyPaths" пропущен. Предыдущая сборка успешна.
+       Целевой объект "AssignLinkMetadata" пропущен из-за невыполненного условия; выражение ( '$(SynthesizeLinkMetadata)' == 'true' ) равно ( '' == 'true' ).
+     1>Целевой объект "SetCABuildNativeEnvironmentVariables" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+       Задача "SetEnv"
+         CAExcludePath=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um;
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv" пропущена из-за невыполненного условия; выражение ('$(RunMsvcAnalysis)'=='true' and '$(VCCodeAnalysisUX)'=='true') равно ('false'=='true' and 'true'=='true').
+     1>Сборка целевого объекта "SetCABuildNativeEnvironmentVariables" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "PrepareForBuild" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') равно ('' != 'true' and 'true' != 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(ApplicationType)' == '' and '$(DesignTimeBuild)' != 'true' and '$(_ToolsetFound)' != 'true') равно ('' == '' and '' != 'true' and 'true' != 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(ApplicationType)' != '' and '$(DesignTimeBuild)' != 'true' and '$(_ToolsetFound)' != 'true') равно ('' != '' and '' != 'true' and 'true' != 'true').
+       Используется задача "MakeDir" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') равно (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) равно (''!='true' and 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\'=='' and '' != 'true' and (''=='v3.5' or ''=='v3.0' or ''=='v2.0' )).
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') равно (''!='true' and 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\'=='' and '' != 'true' and 'v143'=='v90').
+       Используется задача "CheckVCToolsetVersion" из сборки "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
+       Задача "CheckVCToolsetVersion"
+       Выполнение задачи "CheckVCToolsetVersion" завершено.
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(CheckMFCInstalled)' == 'true' and !Exists($(MFC_KeyFile)) and '$(SpectreLibs)' == '') равно ('' == 'true' and !Exists(C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86\mfcs140.lib) and '' == '').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(CheckMFCInstalled)' == 'true' and !Exists($(MFC_KeyFile)) and '$(SpectreLibs)' != '') равно ('' == 'true' and !Exists(C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86\mfcs140.lib) and '' != '').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(CheckATLInstalled)' == 'true' and !Exists($(ATL_KeyFile)) and '$(SpectreLibs)' == '') равно ('' == 'true' and !Exists(C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86\atls.lib) and '' == '').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(CheckATLInstalled)' == 'true' and !Exists($(ATL_KeyFile)) and '$(SpectreLibs)' != '') равно ('' == 'true' and !Exists(C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x86\atls.lib) and '' != '').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)' != 'true' and
+                                                               '$(CheckMSVCComponents)'=='true' and
+                                                               '$(SpectreMitigation)' != '' and
+                                                               '$(SpectreMitigation)' != 'false' and
+                                                               (('$(VC_Target_Library_Platform)' == 'OneCore' and !Exists('$(VC_LibraryPath_VC_OneCore_CurrentPlatform_spectre)')) or
+                                                                ('$(VC_Target_Library_Platform)' == 'Desktop' and !Exists('$(VC_LibraryPath_VC_Desktop_CurrentPlatform_spectre)')))) равно ('' != 'true' and
+                                                               'true'=='true' and
+                                                               'false' != '' and
+                                                               'false' != 'false' and
+                                                               (('Desktop' == 'OneCore' and !Exists('C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\spectre\onecore\x86')) or
+                                                                ('Desktop' == 'Desktop' and !Exists('C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\spectre\x86')))).
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true'  and '$(CheckMSVCComponents)'=='true') равно (''!='true' and 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\'=='' and '' != 'true'  and 'true'=='true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') равно (''!='true' and 'C:\Program Files (x86)\Windows Kits\10\'=='' and '' != 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true') равно (''!='true' and ''=='true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(OutDirTrailingSlashWarning)'=='true') равно (''!='true' and ''=='true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') равно ('' != '' and ''!='true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') равно ('' != 'true' and '' == 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(IntDirFullPath.StartsWith($(_Tmp), true, null))' == 'true' or '$(IntDirFullPath.StartsWith($(_Temp), true, null))' == 'true' or '$(OutDirFullPath.StartsWith($(_Tmp), true, null))' == 'true' or '$(OutDirFullPath.StartsWith($(_Temp), true, null))' == 'true')) равно (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+       Задача "MakeDir"
+         Создание каталога "D:\BSTU\4 sem\МП\Лабы\1\1\Debug\".
+         Создание каталога "Debug\lab1.tlog\".
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "PrepareForBuild" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "_PrepareForReferenceResolution" пропущен. Предыдущая сборка успешна.
+       Целевой объект "ComputeCrtSDKReference" пропущен из-за невыполненного условия; выражение ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') равно ('auxil.cpp;fibonacci.cpp;lab1.cpp'!='' and 'false'=='true' and '' != 'false').
+       Целевой объект "GetInstalledSDKLocations" пропущен из-за невыполненного условия; выражение ('@(SDKReference)' != '') равно ('' != '').
+     1>Целевой объект "ResolveSDKReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+       Задача "ResolveSDKReference" пропущена из-за невыполненного условия; выражение ('@(SDKReference)'!='') равно (''!='').
+     1>Сборка целевого объекта "ResolveSDKReferences" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "ResolveSDKReferences" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "ExpandSDKReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+       Задача "GetSDKReferenceFiles" пропущена из-за невыполненного условия; выражение ('@(ResolvedSDKReference)'!='') равно (''!='').
+     1>Сборка целевого объекта "ExpandSDKReferences" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "ResolveNuGetPackageAssets" пропущен из-за невыполненного условия; выражение ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) равно ('true' == 'true' and exists('obj\project.assets.json')).
+     1>Целевой объект "ResolveAssemblyReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+       Задача "ResolveAssemblyReference" пропущена из-за невыполненного условия; выражение ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') равно (''!='' or ''!='' or '' != '').
+     1>Сборка целевого объекта "ResolveAssemblyReferences" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "GenerateBindingRedirects" пропущен из-за невыполненного условия; выражение ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') равно ('' == 'true' and 'true' == 'true').
+       Целевой объект "GenerateBindingRedirectsUpdateAppConfig" пропущен из-за невыполненного условия; выражение ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) равно ('' == 'true' and 'true' == 'true' and Exists('Debug\lab1.exe.config')).
+       Целевой объект "ResolveComReferences" пропущен из-за невыполненного условия; выражение ('@(COMReference)'!='' or '@(COMFileReference)'!='') равно (''!='' or ''!='').
+     1>Целевой объект "AfterResolveReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Сборка целевого объекта "AfterResolveReferences" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "ResolveTestReferences" пропущен из-за невыполненного условия; выражение ('@(Shadow)'!='') равно (''!='').
+     1>Целевой объект "ResolveReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "Build" зависит от него):
+     1>Сборка целевого объекта "ResolveReferences" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
+       Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "InitializeBuildStatus" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "Build" зависит от него):
+       Используется задача "ReadLinesFromFile" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "ReadLinesFromFile"
+       Выполнение задачи "ReadLinesFromFile" завершено.
+       Используется задача "WriteLinesToFile" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "WriteLinesToFile"
+       Выполнение задачи "WriteLinesToFile" завершено.
+       Используется задача "Touch" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "Touch"
+         Создание "Debug\lab1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       Выполнение задачи "Touch" завершено.
+     1>Сборка целевого объекта "InitializeBuildStatus" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "PrepareProjectReferences" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "BuildGenerateSourcesTraverse" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') равно ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+     1>Сборка целевого объекта "BuildGenerateSourcesTraverse" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
+       Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "BeforeBuildGenerateSources" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "BeforeBuildGenerateSources" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "PreBuildEvent" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') равно ('' != '' and '' != '').
+       Задача "Exec" пропущена из-за невыполненного условия; выражение ('%(PreBuildEvent.Command)' != '') равно ('' != '').
+     1>Сборка целевого объекта "PreBuildEvent" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
+       Целевой объект "InitializeBuildStatus" пропущен. Предыдущая сборка успешна.
+       Целевой объект "SetBuildDefaultEnvironmentVariables" пропущен. Предыдущая сборка успешна.
+       Целевой объект "SetUserMacroEnvironmentVariables" пропущен из-за невыполненного условия; выражение ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') равно ('' != '' and '' != 'true').
+     1>Целевой объект "_SelectedFiles" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "SelectCustomBuild" зависит от него):
+     1>Сборка целевого объекта "_SelectedFiles" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "SelectCustomBuild" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "CustomBuild" зависит от него):
+     1>Сборка целевого объекта "SelectCustomBuild" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "ComputeCustomBuildOutput" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "CustomBuild" зависит от него):
+       Задача "CreateItem" пропущена из-за невыполненного условия; выражение ('%(CustomBuildOutputs.OutputItemType)'!='') равно (''!='').
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "ComputeCustomBuildOutput" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "CustomBuild" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+       Используется задача "GetOutOfDateItems" из сборки "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
+       Задача "GetOutOfDateItems"
+       Выполнение задачи "GetOutOfDateItems" завершено.
+       Задача "GetOutOfDateItems"
+       Выполнение задачи "GetOutOfDateItems" завершено.
+       Задача "ParallelCustomBuild" пропущена из-за невыполненного условия; выражение ('@(_ParallelCustomBuild)' != '') равно ('' != '').
+       Задача "CustomBuild" пропущена из-за невыполненного условия; выражение ('@(_CustomBuild)' != '') равно ('' != '').
+     1>Сборка целевого объекта "CustomBuild" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "FxExport" пропущен из-за невыполненного условия; выражение ('@(FxCompile)' != '') равно ('' != '').
+       Целевой объект "FxCompile" пропущен из-за невыполненного условия; выражение ('@(FxCompile)' != '') равно ('' != '').
+       Целевой объект "_CreateCopyFileItems" пропущен из-за невыполненного условия; выражение ('@(CopyFileToFolders)' != '') равно ('' != '').
+       Целевой объект "_SelectedFiles" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "CopyFileToFolders" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+       Задача "GetOutOfDateItems"
+       Выполнение задачи "GetOutOfDateItems" завершено.
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('@(_OutOfDateCopyFile)' != '') равно ('' != '').
+     1>Сборка целевого объекта "CopyFileToFolders" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "Xsd" пропущен из-за невыполненного условия; выражение ('@(Xsd)' != '') равно ('' != '').
+     1>Целевой объект "_Xsd" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "_Xsd" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "MakeDirsForMidl" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_Midl" зависит от него):
+       Задача "Makedir"
+       Выполнение задачи "Makedir" завершено.
+     1>Сборка целевого объекта "MakeDirsForMidl" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "Midl" пропущен из-за невыполненного условия; выражение ('@(Midl)' != '') равно ('' != '').
+       Целевой объект "FxExport" пропущен из-за невыполненного условия; выражение ('@(FxCompile)' != '') равно ('' != '').
+       Целевой объект "FxCompile" пропущен из-за невыполненного условия; выражение ('@(FxCompile)' != '') равно ('' != '').
+     1>Целевой объект "ComputeMIDLGeneratedCompileInputs" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_Midl" зависит от него):
+     1>Сборка целевого объекта "ComputeMIDLGeneratedCompileInputs" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "AfterMidl" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_Midl" зависит от него):
+     1>Сборка целевого объекта "AfterMidl" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "_Midl" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "_Midl" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "AfterBuildGenerateSources" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "AfterBuildGenerateSources" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "AfterBuildGenerateSourcesEvent" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "AfterBuildGenerateSourcesEvent" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "_BuildGenerateSourcesAction" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
+     1>Сборка целевого объекта "_BuildGenerateSourcesAction" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "BuildGenerateSources" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "Build" зависит от него):
+     1>Сборка целевого объекта "BuildGenerateSources" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "PrepareProjectReferences" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "BuildCompileTraverse" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "BuildCompile" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') равно ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Сборка целевого объекта "BuildCompileTraverse" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
+       Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "BeforeClCompile" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Сборка целевого объекта "BeforeClCompile" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропущен из-за невыполненного условия; выражение ('$(GenerateTargetFrameworkAttribute)' == 'true') равно ('false' == 'true').
+       Целевой объект "ComputeMIDLGeneratedCompileInputs" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "ComputeCLInputPDBName" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Сборка целевого объекта "ComputeCLInputPDBName" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "FindReferenceAssembliesForReferences" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ComputeReferenceCLInput" зависит от него):
+     1>Сборка целевого объекта "FindReferenceAssembliesForReferences" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Предыдущая сборка успешна.
+       Целевой объект "ResolveReferences" пропущен. Предыдущая сборка успешна.
+     1>Целевой объект "GetReferencedVCProjectsInfo" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ComputeReferenceCLInput" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == '.vcxproj' and '' != '' and '' != '').
+     1>Сборка целевого объекта "GetReferencedVCProjectsInfo" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "ComputeReferenceCLInput" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+       Задача "WriteLinesToFile" пропущена из-за невыполненного условия; выражение ('@(_ReferenceOutputsToCopyLocally)'!='' and '$(DesignTimeBuild)' != 'true' and '$(TrackFileAccess)' == 'true') равно (''!='' and '' != 'true' and 'true' == 'true').
+       Задача "WriteLinesToFile" пропущена из-за невыполненного условия; выражение ('@(_ReferenceOutputsToCopyLocally)'!='' and '$(DesignTimeBuild)' != 'true' and '$(TrackFileAccess)' == 'true') равно (''!='' and '' != 'true' and 'true' == 'true').
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('$(_REFERENCE_DEBUG)'=='true') равно (''=='true').
+     1>Сборка целевого объекта "ComputeReferenceCLInput" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "WarnCompileDuplicatedFilename" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('' != 'true' and 'auxil.cpp' != 'auxil.cpp' and 'Debug\' == 'Debug\').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('' != 'true' and 'fibonacci.cpp' != 'fibonacci.cpp' and 'Debug\' == 'Debug\').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('' != 'true' and 'lab1.cpp' != 'lab1.cpp' and 'Debug\' == 'Debug\').
+     1>Сборка целевого объекта "WarnCompileDuplicatedFilename" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "FixupCLCompileOptions" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Сборка целевого объекта "FixupCLCompileOptions" в проекте "lab1.vcxproj" завершена.
+     1>Целевой объект "MakeDirsForCl" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "MakeDirsForCl" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "_SelectedFiles" пропущен. Предыдущая сборка успешна.
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропущен из-за невыполненного условия; выражение ('$(GenerateTargetFrameworkAttribute)' == 'true') равно ('false' == 'true').
+       Целевой объект "ComputeMIDLGeneratedCompileInputs" пропущен. Предыдущая сборка успешна.
+       Целевой объект "ComputeCLInputPDBName" пропущен. Предыдущая сборка успешна.
+       Целевой объект "ComputeReferenceCLInput" пропущен. Предыдущая сборка успешна.
+       Целевой объект "WarnCompileDuplicatedFilename" пропущен. Предыдущая сборка успешна.
+       Целевой объект "FixupCLCompileOptions" пропущен. Предыдущая сборка успешна.
+       Целевой объект "SelectCustomBuild" пропущен. Предыдущая сборка успешна.
+       Целевой объект "SetModuleDependencies" пропущен из-за невыполненного условия; выражение ('$(DesignTimeBuild)' != 'true' and '$(EnableCppModules)' == 'true') равно ('' != 'true' and '' == 'true').
+     1>Целевой объект "SelectClCompile" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "ClCompile" зависит от него):
+     1>Сборка целевого объекта "SelectClCompile" в проекте "lab1.vcxproj" завершена.
+       Целевой объект "SelectAnalysisManifest" пропущен из-за невыполненного условия; выражение ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') равно ('false'=='true' and ''!='').
+       Целевой объект "ManagedIncrementalBuildPreProcessDependencyGraph" пропущен из-за невыполненного условия; выражение ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') равно ('auxil.cpp;fibonacci.cpp;lab1.cpp' != '' and 'false' == 'True').
+     1>Целевой объект "ClCompile" в файле "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" из проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+       Используется задача "Delete" из сборки "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "Delete"
+       Выполнение задачи "Delete" завершено.
+       Задача "MultiToolTask" пропущена из-за невыполненного условия; выражение ('%(ClCompile.CompilerIteration)' == 'Modules') равно ('' == 'Modules').
+       Задача "MultiToolTask" пропущена из-за невыполненного условия; выражение ('%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' == 'true') равно ('' == '' and 'false' == 'true').
+       Задача "CL" пропущена из-за невыполненного условия; выражение ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' != 'true') равно ('NotUsing' == 'Create' and '' == '' and 'false' != 'true').
+       Используется задача "CL" из сборки "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
+       Задача "CL"
+         Выполняется принудительная повторная компиляция всех исходных файлов в связи с отсутствием PDB-файла "Debug\vc143.pdb".
+         Переменные окружения переданы инструменту:
+           VS_UNICODE_OUTPUT=1440
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt auxil.cpp fibonacci.cpp lab1.cpp
+         Команда отслеживания:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\Debug\lab1.tlog" /r "D:\BSTU\4 SEM\МП\ЛАБЫ\1\1\LAB1\AUXIL.CPP|D:\BSTU\4 SEM\МП\ЛАБЫ\1\1\LAB1\FIBONACCI.CPP|D:\BSTU\4 SEM\МП\ЛАБЫ\1\1\LAB1\LAB1.CPP" /b MSBuildConsole_CancelEventbcf617462e2846e3a670757492775bdb  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt auxil.cpp fibonacci.cpp lab1.cpp
+         auxil.cpp
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(1326,9): fatal  error C1088: Не удается очистить файл промежуточный код компилятора: C:\Users\Admin\AppData\Local\Temp\_CL_706eeaabex: No space left on device
+         Создание кода...
+         Компиляция...
+         fibonacci.cpp
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(1326,9): fatal  error C1088: Не удается очистить файл промежуточный код компилятора: C:\Users\Admin\AppData\Local\Temp\_CL_c689c889ex: No space left on device
+         Создание кода...
+         Компиляция...
+         lab1.cpp
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(1326,9): fatal  error C1088: Не удается очистить файл промежуточный код компилятора: C:\Users\Admin\AppData\Local\Temp\_CL_117025dcex: No space left on device
+         Создание кода...
+         Выход из команды с кодом "2".
+       Выполнение задачи "CL" завершено с ошибкой.
+     1>Сборка целевого объекта "ClCompile" в проекте "lab1.vcxproj" завершена с ошибкой.
+     1>Сборка проекта "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\BSTU\4 sem\МП\Лабы\1\1\lab1\lab1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(1326,9): fatal  error C1088: Не удается очистить файл промежуточный код компилятора: C:\Users\Admin\AppData\Local\Temp\_CL_706eeaabex: No space left on device
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(1326,9): fatal  error C1088: Не удается очистить файл промежуточный код компилятора: C:\Users\Admin\AppData\Local\Temp\_CL_c689c889ex: No space left on device
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(1326,9): fatal  error C1088: Не удается очистить файл промежуточный код компилятора: C:\Users\Admin\AppData\Local\Temp\_CL_117025dcex: No space left on device
+
+    Предупреждений: 0
+    Ошибок: 3
+
+Прошло времени 00:00:00.65
