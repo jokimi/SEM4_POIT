@@ -1,0 +1,15 @@
+D:\BSTU\4 sem\ООП\Лабы\2\Store\bin\Debug\Store.exe.config
+D:\BSTU\4 sem\ООП\Лабы\2\Store\bin\Debug\Store.exe
+D:\BSTU\4 sem\ООП\Лабы\2\Store\bin\Debug\Store.pdb
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\Store.csproj.AssemblyReference.cache
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\Store.csproj.SuggestedBindingRedirects.cache
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\Store.Properties.Resources.resources
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\Store.csproj.GenerateResource.cache
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\Store.csproj.CoreCompileInputs.cache
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\Store.exe
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\Store.pdb
+D:\BSTU\4 sem\ООП\Лабы\2\Store\bin\Debug\Newtonsoft.Json.dll
+D:\BSTU\4 sem\ООП\Лабы\2\Store\bin\Debug\Newtonsoft.Json.xml
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\Store.csproj.CopyComplete
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\WindowsFormsApp2.Form1.resources
+D:\BSTU\4 sem\ООП\Лабы\2\Store\obj\Debug\WindowsFormsApp2.Form2.resources
