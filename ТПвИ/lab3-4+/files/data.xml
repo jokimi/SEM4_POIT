@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PrintedProducts xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="data.xsd">
+    <Book>
+        <title>Harry_Potter</title>
+        <price>550</price>
+        <year>2014</year>
+    </Book>
+    <Book>
+        <title>Paint</title>
+        <price>1200</price>
+        <year>2003</year>
+    </Book>
+    <Magazine>
+        <title>Lord_of_the_ring</title>
+        <price>1000</price>
+        <year>2003</year>
+    </Magazine>
+    <Postcard>
+        <title>Times</title>
+        <price>70</price>
+        <year>2023</year>
+    </Postcard>
+</PrintedProducts>

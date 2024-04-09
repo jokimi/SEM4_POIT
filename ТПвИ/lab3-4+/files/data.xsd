@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="PrintedProducts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Book" type="PrintedProduct" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element name="Magazine" type="PrintedProduct" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element name="Postcard" type="PrintedProduct" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="PrintedProduct">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="price" type="xs:integer"/>
+            <xs:element name="year" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

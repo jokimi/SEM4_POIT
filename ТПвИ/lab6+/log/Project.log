@@ -1,0 +1,408 @@
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - 
+ Все люди:
+
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - [
+Author{ Surname name patronymic='Васильев Дмитрий Андреевич', dateBirth='1997-07-07 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Зимина Елена Витальевна', dateBirth='1996-07-08 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Иванов Иван Иванович', dateBirth='1990-01-01 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Козлова Ольга Васильевна', dateBirth='1995-03-20 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Кузнецова Мария Александровна', dateBirth='1993-06-18 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Лебедев Артем Николаевич', dateBirth='1991-04-30 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Морозов Сергей Владимирович', dateBirth='1987-09-05 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Николаева Анна Игоревна', dateBirth='1994-12-12 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Петров Петр Петрович', dateBirth='1985-05-10 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Сидорова Елена Викторовна', dateBirth='1992-11-25 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Смирнов Алексей Сергеевич', dateBirth='1988-08-15 00:00:00', sends='no info', receives='no info }]
+
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - 
+ Информация о пользователях, а также количестве полученных и отправленных ими письмах:
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - [
+Author{ Surname name patronymic='Васильев Дмитрий Андреевич', dateBirth='1997-07-07 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Зимина Елена Витальевна', dateBirth='1996-07-08 00:00:00', sends='null', receives='null }, 
+Author{ Surname name patronymic='Иванов Иван Иванович', dateBirth='1990-01-01 00:00:00', sends='12', receives='12 }, 
+Author{ Surname name patronymic='Козлова Ольга Васильевна', dateBirth='1995-03-20 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Кузнецова Мария Александровна', dateBirth='1993-06-18 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Лебедев Артем Николаевич', dateBirth='1991-04-30 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Морозов Сергей Владимирович', dateBirth='1987-09-05 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Николаева Анна Игоревна', dateBirth='1994-12-12 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Петров Петр Петрович', dateBirth='1985-05-10 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Сидорова Елена Викторовна', dateBirth='1992-11-25 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Смирнов Алексей Сергеевич', dateBirth='1988-08-15 00:00:00', sends='1', receives='1 }]
+
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - 
+Список всех писем
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - [
+Letters{ sender='Сидорова Елена Викторовна', receiver='Козлова Ольга Васильевна', theme='Тема письма 3', text='Текст письма 3', date of sending=2022-01-03 11:15:00', letter_id=3 }, 
+Letters{ sender='Смирнов Алексей Сергеевич', receiver='Васильев Дмитрий Андреевич', theme='Тема письма 4', text='Текст письма 4', date of sending=2022-01-04 16:45:00', letter_id=4 }, 
+Letters{ sender='Козлова Ольга Васильевна', receiver='Сидорова Елена Викторовна', theme='Тема письма 5', text='Текст письма 5', date of sending=2022-01-05 10:30:00', letter_id=5 }, 
+Letters{ sender='Васильев Дмитрий Андреевич', receiver='Смирнов Алексей Сергеевич', theme='Тема письма 4', text='Текст письма 6', date of sending=2022-01-06 15:20:00', letter_id=6 }, 
+Letters{ sender='Николаева Анна Игоревна', receiver='Морозов Сергей Владимирович', theme='Тема письма 7', text='Текст письма 7', date of sending=2022-01-07 12:10:00', letter_id=7 }, 
+Letters{ sender='Морозов Сергей Владимирович', receiver='Николаева Анна Игоревна', theme='Тема письма 8', text='Текст письма 8', date of sending=2022-01-08 17:00:00', letter_id=8 }, 
+Letters{ sender='Кузнецова Мария Александровна', receiver='Лебедев Артем Николаевич', theme='Тема письма 9', text='Текст письма 9', date of sending=2022-01-09 13:45:00', letter_id=9 }, 
+Letters{ sender='Лебедев Артем Николаевич', receiver='Кузнецова Мария Александровна', theme='Тема письма 4', text='Текст письма 10', date of sending=2022-01-10 08:30:00', letter_id=10 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Петров Петр Петрович', theme='Тема письма 1', text='Текст письма 1', date of sending=2022-01-01 09:00:00', letter_id=11 }, 
+Letters{ sender='Петров Петр Петрович', receiver='Иванов Иван Иванович', theme='Тема письма 2', text='Текст письма 2', date of sending=2022-01-02 14:30:00', letter_id=12 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=13 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=14 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=15 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=16 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=17 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=18 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=19 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=20 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=21 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=22 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=23 }]
+
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - 
+ Пользователь, длина писем которого наименьшая:
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - [
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }]
+
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - 
+ Вывести информацию о пользователях, которые получили хотя бы одно сообщение с заданной темой:
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - [
+Letters{ sender='Смирнов Алексей Сергеевич', receiver='Васильев Дмитрий Андреевич', theme='Тема письма 4', text='Текст письма 4', date of sending=2022-01-04 16:45:00', letter_id=4 }, 
+Letters{ sender='Васильев Дмитрий Андреевич', receiver='Смирнов Алексей Сергеевич', theme='Тема письма 4', text='Текст письма 6', date of sending=2022-01-06 15:20:00', letter_id=6 }, 
+Letters{ sender='Лебедев Артем Николаевич', receiver='Кузнецова Мария Александровна', theme='Тема письма 4', text='Текст письма 10', date of sending=2022-01-10 08:30:00', letter_id=10 }]
+
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - 
+ Вывести информацию о пользователях, которые не получали сообщения с заданной темой:
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - [
+Letters{ sender='Сидорова Елена Викторовна', receiver='Козлова Ольга Васильевна', theme='Тема письма 3', text='Текст письма 3', date of sending=2022-01-03 11:15:00', letter_id=3 }, 
+Letters{ sender='Козлова Ольга Васильевна', receiver='Сидорова Елена Викторовна', theme='Тема письма 5', text='Текст письма 5', date of sending=2022-01-05 10:30:00', letter_id=5 }, 
+Letters{ sender='Николаева Анна Игоревна', receiver='Морозов Сергей Владимирович', theme='Тема письма 7', text='Текст письма 7', date of sending=2022-01-07 12:10:00', letter_id=7 }, 
+Letters{ sender='Морозов Сергей Владимирович', receiver='Николаева Анна Игоревна', theme='Тема письма 8', text='Текст письма 8', date of sending=2022-01-08 17:00:00', letter_id=8 }, 
+Letters{ sender='Кузнецова Мария Александровна', receiver='Лебедев Артем Николаевич', theme='Тема письма 9', text='Текст письма 9', date of sending=2022-01-09 13:45:00', letter_id=9 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Петров Петр Петрович', theme='Тема письма 1', text='Текст письма 1', date of sending=2022-01-01 09:00:00', letter_id=11 }, 
+Letters{ sender='Петров Петр Петрович', receiver='Иванов Иван Иванович', theme='Тема письма 2', text='Текст письма 2', date of sending=2022-01-02 14:30:00', letter_id=12 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=13 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=14 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=15 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=16 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=17 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=18 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=19 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=20 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=21 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=22 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=23 }]
+
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - 
+ Направить письмо заданного человека с заданной темой всем адресатам:
+05.04.2024 00:13:38 [main] INFO  javadbc.Main  - Письмо с заданной темой было отправлено всем адресатам
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - 
+ Все люди:
+
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - [
+Author{ Surname name patronymic='Васильев Дмитрий Андреевич', dateBirth='1997-07-07 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Зимина Елена Витальевна', dateBirth='1996-07-08 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Иванов Иван Иванович', dateBirth='1990-01-01 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Козлова Ольга Васильевна', dateBirth='1995-03-20 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Кузнецова Мария Александровна', dateBirth='1993-06-18 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Лебедев Артем Николаевич', dateBirth='1991-04-30 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Морозов Сергей Владимирович', dateBirth='1987-09-05 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Николаева Анна Игоревна', dateBirth='1994-12-12 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Петров Петр Петрович', dateBirth='1985-05-10 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Сидорова Елена Викторовна', dateBirth='1992-11-25 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Смирнов Алексей Сергеевич', dateBirth='1988-08-15 00:00:00', sends='no info', receives='no info }]
+
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - 
+ Информация о пользователях, а также количестве полученных и отправленных ими письмах:
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - [
+Author{ Surname name patronymic='Васильев Дмитрий Андреевич', dateBirth='1997-07-07 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Зимина Елена Витальевна', dateBirth='1996-07-08 00:00:00', sends='null', receives='null }, 
+Author{ Surname name patronymic='Иванов Иван Иванович', dateBirth='1990-01-01 00:00:00', sends='23', receives='23 }, 
+Author{ Surname name patronymic='Козлова Ольга Васильевна', dateBirth='1995-03-20 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Кузнецова Мария Александровна', dateBirth='1993-06-18 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Лебедев Артем Николаевич', dateBirth='1991-04-30 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Морозов Сергей Владимирович', dateBirth='1987-09-05 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Николаева Анна Игоревна', dateBirth='1994-12-12 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Петров Петр Петрович', dateBirth='1985-05-10 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Сидорова Елена Викторовна', dateBirth='1992-11-25 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Смирнов Алексей Сергеевич', dateBirth='1988-08-15 00:00:00', sends='1', receives='1 }]
+
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - 
+Список всех писем
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - [
+Letters{ sender='Сидорова Елена Викторовна', receiver='Козлова Ольга Васильевна', theme='Тема письма 3', text='Текст письма 3', date of sending=2022-01-03 11:15:00', letter_id=3 }, 
+Letters{ sender='Смирнов Алексей Сергеевич', receiver='Васильев Дмитрий Андреевич', theme='Тема письма 4', text='Текст письма 4', date of sending=2022-01-04 16:45:00', letter_id=4 }, 
+Letters{ sender='Козлова Ольга Васильевна', receiver='Сидорова Елена Викторовна', theme='Тема письма 5', text='Текст письма 5', date of sending=2022-01-05 10:30:00', letter_id=5 }, 
+Letters{ sender='Васильев Дмитрий Андреевич', receiver='Смирнов Алексей Сергеевич', theme='Тема письма 4', text='Текст письма 6', date of sending=2022-01-06 15:20:00', letter_id=6 }, 
+Letters{ sender='Николаева Анна Игоревна', receiver='Морозов Сергей Владимирович', theme='Тема письма 7', text='Текст письма 7', date of sending=2022-01-07 12:10:00', letter_id=7 }, 
+Letters{ sender='Морозов Сергей Владимирович', receiver='Николаева Анна Игоревна', theme='Тема письма 8', text='Текст письма 8', date of sending=2022-01-08 17:00:00', letter_id=8 }, 
+Letters{ sender='Кузнецова Мария Александровна', receiver='Лебедев Артем Николаевич', theme='Тема письма 9', text='Текст письма 9', date of sending=2022-01-09 13:45:00', letter_id=9 }, 
+Letters{ sender='Лебедев Артем Николаевич', receiver='Кузнецова Мария Александровна', theme='Тема письма 4', text='Текст письма 10', date of sending=2022-01-10 08:30:00', letter_id=10 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Петров Петр Петрович', theme='Тема письма 1', text='Текст письма 1', date of sending=2022-01-01 09:00:00', letter_id=11 }, 
+Letters{ sender='Петров Петр Петрович', receiver='Иванов Иван Иванович', theme='Тема письма 2', text='Текст письма 2', date of sending=2022-01-02 14:30:00', letter_id=12 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=13 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=14 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=15 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=16 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=17 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=18 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=19 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=20 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=21 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=22 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=23 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=24 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=25 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=26 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=27 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=28 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=29 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=30 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=31 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=32 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=33 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=34 }]
+
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - 
+ Пользователь, длина писем которого наименьшая:
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - [
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }]
+
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - 
+ Вывести информацию о пользователях, которые получили хотя бы одно сообщение с заданной темой:
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - [
+Letters{ sender='Смирнов Алексей Сергеевич', receiver='Васильев Дмитрий Андреевич', theme='Тема письма 4', text='Текст письма 4', date of sending=2022-01-04 16:45:00', letter_id=4 }, 
+Letters{ sender='Васильев Дмитрий Андреевич', receiver='Смирнов Алексей Сергеевич', theme='Тема письма 4', text='Текст письма 6', date of sending=2022-01-06 15:20:00', letter_id=6 }, 
+Letters{ sender='Лебедев Артем Николаевич', receiver='Кузнецова Мария Александровна', theme='Тема письма 4', text='Текст письма 10', date of sending=2022-01-10 08:30:00', letter_id=10 }]
+
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - 
+ Вывести информацию о пользователях, которые не получали сообщения с заданной темой:
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - [
+Letters{ sender='Сидорова Елена Викторовна', receiver='Козлова Ольга Васильевна', theme='Тема письма 3', text='Текст письма 3', date of sending=2022-01-03 11:15:00', letter_id=3 }, 
+Letters{ sender='Козлова Ольга Васильевна', receiver='Сидорова Елена Викторовна', theme='Тема письма 5', text='Текст письма 5', date of sending=2022-01-05 10:30:00', letter_id=5 }, 
+Letters{ sender='Николаева Анна Игоревна', receiver='Морозов Сергей Владимирович', theme='Тема письма 7', text='Текст письма 7', date of sending=2022-01-07 12:10:00', letter_id=7 }, 
+Letters{ sender='Морозов Сергей Владимирович', receiver='Николаева Анна Игоревна', theme='Тема письма 8', text='Текст письма 8', date of sending=2022-01-08 17:00:00', letter_id=8 }, 
+Letters{ sender='Кузнецова Мария Александровна', receiver='Лебедев Артем Николаевич', theme='Тема письма 9', text='Текст письма 9', date of sending=2022-01-09 13:45:00', letter_id=9 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Петров Петр Петрович', theme='Тема письма 1', text='Текст письма 1', date of sending=2022-01-01 09:00:00', letter_id=11 }, 
+Letters{ sender='Петров Петр Петрович', receiver='Иванов Иван Иванович', theme='Тема письма 2', text='Текст письма 2', date of sending=2022-01-02 14:30:00', letter_id=12 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=13 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=14 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=15 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=16 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=17 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=18 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=19 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=20 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=21 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=22 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=23 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=24 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=25 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=26 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=27 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=28 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=29 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=30 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=31 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=32 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=33 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=34 }]
+
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - 
+ Направить письмо заданного человека с заданной темой всем адресатам:
+05.04.2024 00:13:42 [main] INFO  javadbc.Main  - Письмо с заданной темой было отправлено всем адресатам
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - 
+ Все люди:
+
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - [
+Author{ Surname name patronymic='Васильев Дмитрий Андреевич', dateBirth='1997-07-07 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Зимина Елена Витальевна', dateBirth='1996-07-08 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Иванов Иван Иванович', dateBirth='1990-01-01 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Козлова Ольга Васильевна', dateBirth='1995-03-20 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Кузнецова Мария Александровна', dateBirth='1993-06-18 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Лебедев Артем Николаевич', dateBirth='1991-04-30 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Морозов Сергей Владимирович', dateBirth='1987-09-05 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Николаева Анна Игоревна', dateBirth='1994-12-12 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Петров Петр Петрович', dateBirth='1985-05-10 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Сидорова Елена Викторовна', dateBirth='1992-11-25 00:00:00', sends='no info', receives='no info }, 
+Author{ Surname name patronymic='Смирнов Алексей Сергеевич', dateBirth='1988-08-15 00:00:00', sends='no info', receives='no info }]
+
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - 
+ Информация о пользователях, а также количестве полученных и отправленных ими письмах:
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - [
+Author{ Surname name patronymic='Васильев Дмитрий Андреевич', dateBirth='1997-07-07 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Зимина Елена Витальевна', dateBirth='1996-07-08 00:00:00', sends='null', receives='null }, 
+Author{ Surname name patronymic='Иванов Иван Иванович', dateBirth='1990-01-01 00:00:00', sends='34', receives='34 }, 
+Author{ Surname name patronymic='Козлова Ольга Васильевна', dateBirth='1995-03-20 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Кузнецова Мария Александровна', dateBirth='1993-06-18 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Лебедев Артем Николаевич', dateBirth='1991-04-30 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Морозов Сергей Владимирович', dateBirth='1987-09-05 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Николаева Анна Игоревна', dateBirth='1994-12-12 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Петров Петр Петрович', dateBirth='1985-05-10 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Сидорова Елена Викторовна', dateBirth='1992-11-25 00:00:00', sends='1', receives='1 }, 
+Author{ Surname name patronymic='Смирнов Алексей Сергеевич', dateBirth='1988-08-15 00:00:00', sends='1', receives='1 }]
+
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - 
+Список всех писем
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - [
+Letters{ sender='Сидорова Елена Викторовна', receiver='Козлова Ольга Васильевна', theme='Тема письма 3', text='Текст письма 3', date of sending=2022-01-03 11:15:00', letter_id=3 }, 
+Letters{ sender='Смирнов Алексей Сергеевич', receiver='Васильев Дмитрий Андреевич', theme='Тема письма 4', text='Текст письма 4', date of sending=2022-01-04 16:45:00', letter_id=4 }, 
+Letters{ sender='Козлова Ольга Васильевна', receiver='Сидорова Елена Викторовна', theme='Тема письма 5', text='Текст письма 5', date of sending=2022-01-05 10:30:00', letter_id=5 }, 
+Letters{ sender='Васильев Дмитрий Андреевич', receiver='Смирнов Алексей Сергеевич', theme='Тема письма 4', text='Текст письма 6', date of sending=2022-01-06 15:20:00', letter_id=6 }, 
+Letters{ sender='Николаева Анна Игоревна', receiver='Морозов Сергей Владимирович', theme='Тема письма 7', text='Текст письма 7', date of sending=2022-01-07 12:10:00', letter_id=7 }, 
+Letters{ sender='Морозов Сергей Владимирович', receiver='Николаева Анна Игоревна', theme='Тема письма 8', text='Текст письма 8', date of sending=2022-01-08 17:00:00', letter_id=8 }, 
+Letters{ sender='Кузнецова Мария Александровна', receiver='Лебедев Артем Николаевич', theme='Тема письма 9', text='Текст письма 9', date of sending=2022-01-09 13:45:00', letter_id=9 }, 
+Letters{ sender='Лебедев Артем Николаевич', receiver='Кузнецова Мария Александровна', theme='Тема письма 4', text='Текст письма 10', date of sending=2022-01-10 08:30:00', letter_id=10 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Петров Петр Петрович', theme='Тема письма 1', text='Текст письма 1', date of sending=2022-01-01 09:00:00', letter_id=11 }, 
+Letters{ sender='Петров Петр Петрович', receiver='Иванов Иван Иванович', theme='Тема письма 2', text='Текст письма 2', date of sending=2022-01-02 14:30:00', letter_id=12 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=13 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=14 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=15 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=16 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=17 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=18 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=19 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=20 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=21 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=22 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=23 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=24 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=25 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=26 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=27 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=28 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=29 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=30 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=31 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=32 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=33 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=34 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=35 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=36 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=37 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=38 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=39 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=40 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=41 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=42 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=43 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=44 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=45 }]
+
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - 
+ Пользователь, длина писем которого наименьшая:
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - [
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }, 
+Letters{ sender='Иванов Иван Иванович', receiver='no info', theme='no info', text='no info', date of sending=no info', letter_id=null }]
+
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - 
+ Вывести информацию о пользователях, которые получили хотя бы одно сообщение с заданной темой:
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - [
+Letters{ sender='Смирнов Алексей Сергеевич', receiver='Васильев Дмитрий Андреевич', theme='Тема письма 4', text='Текст письма 4', date of sending=2022-01-04 16:45:00', letter_id=4 }, 
+Letters{ sender='Васильев Дмитрий Андреевич', receiver='Смирнов Алексей Сергеевич', theme='Тема письма 4', text='Текст письма 6', date of sending=2022-01-06 15:20:00', letter_id=6 }, 
+Letters{ sender='Лебедев Артем Николаевич', receiver='Кузнецова Мария Александровна', theme='Тема письма 4', text='Текст письма 10', date of sending=2022-01-10 08:30:00', letter_id=10 }]
+
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - 
+ Вывести информацию о пользователях, которые не получали сообщения с заданной темой:
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - [
+Letters{ sender='Сидорова Елена Викторовна', receiver='Козлова Ольга Васильевна', theme='Тема письма 3', text='Текст письма 3', date of sending=2022-01-03 11:15:00', letter_id=3 }, 
+Letters{ sender='Козлова Ольга Васильевна', receiver='Сидорова Елена Викторовна', theme='Тема письма 5', text='Текст письма 5', date of sending=2022-01-05 10:30:00', letter_id=5 }, 
+Letters{ sender='Николаева Анна Игоревна', receiver='Морозов Сергей Владимирович', theme='Тема письма 7', text='Текст письма 7', date of sending=2022-01-07 12:10:00', letter_id=7 }, 
+Letters{ sender='Морозов Сергей Владимирович', receiver='Николаева Анна Игоревна', theme='Тема письма 8', text='Текст письма 8', date of sending=2022-01-08 17:00:00', letter_id=8 }, 
+Letters{ sender='Кузнецова Мария Александровна', receiver='Лебедев Артем Николаевич', theme='Тема письма 9', text='Текст письма 9', date of sending=2022-01-09 13:45:00', letter_id=9 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Петров Петр Петрович', theme='Тема письма 1', text='Текст письма 1', date of sending=2022-01-01 09:00:00', letter_id=11 }, 
+Letters{ sender='Петров Петр Петрович', receiver='Иванов Иван Иванович', theme='Тема письма 2', text='Текст письма 2', date of sending=2022-01-02 14:30:00', letter_id=12 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=13 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=14 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=15 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=16 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=17 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=18 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=19 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=20 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=21 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=22 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=23 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=24 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=25 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=26 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=27 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=28 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=29 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=30 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=31 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=32 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=33 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=34 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=35 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=36 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=37 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=38 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=39 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=40 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=41 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=42 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=43 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=44 }, 
+Letters{ sender='Иванов Иван Иванович', receiver='Иванов Иван Иванович', theme='Тема письма 1', text='THIS IS SPAM!!', date of sending=2024-05-23 00:00:00', letter_id=45 }]
+
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - 
+ Направить письмо заданного человека с заданной темой всем адресатам:
+05.04.2024 17:12:54 [main] INFO  javadbc.Main  - Письмо с заданной темой было отправлено всем адресатам
