@@ -1,0 +1,1583 @@
+/*
+
+1 var) загрузить первый курс
+
+use ex1;
+
+CREATE TABLE Course (
+    Surame NVARCHAR(20),
+    CourseNumber INT
+);
+
+    <Grid>
+        <Button x:Name="LoadFirstCourseButton" Content="Загрузить первый курс" Click="LoadFirstCourseButton_Click" Margin="123,52,400,340" />
+        <DataGrid x:Name="dataGrid" Height="200" AutoGenerateColumns="True" IsReadOnly="True" />
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        private string connectionString = "Data Source=DESKTOP-3SMK9QM;Initial Catalog=ex1;Integrated Security=True";
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void LoadFirstCourseButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    string query = "SELECT Surname, CourseNumber FROM Course WHERE CourseNumber = 1";
+                    SqlCommand command = new SqlCommand(query, connection);
+
+                    DataTable dataTable = new DataTable();
+                    dataTable.Load(command.ExecuteReader());
+
+                    dataGrid.ItemsSource = dataTable.DefaultView;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+    }
+
+---------------------------------------------------------------------------------------------------------------------------
+
+4 var) при нажатии на кнопку курс увеличивается на 1
+
+    CREATE TABLE Students (
+    StudentID INT IDENTITY(1,1) PRIMARY KEY,
+    LastName NVARCHAR(255) NOT NULL,
+    CourseNumber INT NOT NULL
+    );
+
+    <Grid>
+        <Button Content="Изменить" HorizontalAlignment="Left" Margin="95,119,0,0" VerticalAlignment="Top" Height="48" Width="70" Click="LoadData"/>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="359,0,0,0"/>
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+        private void LoadData(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString))
+                {
+                    connection.Open();
+                    string query = "SELECT *  FROM Students";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        SqlDataReader dataReader = command.ExecuteReader();
+                        DataTable dataTable = new DataTable();
+                        dataTable.Load(dataReader);
+
+                        dataGrid.ItemsSource = dataTable.DefaultView;
+                    }
+                    string query1 = "UPDATE Students SET CourseNumber = CourseNumber + 1";
+
+                    using (SqlCommand command = new SqlCommand(query1, connection))
+                    {
+                        int rowsAffected = command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка");
+            }
+        }
+    }
+
+------------------------------------------------------------------------------------------------------------
+
+8 вар) удалить всех старше 30 лет
+
+use ex1;
+CREATE TABLE People (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(50) NOT NULL,
+    Age INT NOT NULL
+)
+
+    public partial class Model1 : DbContext
+    {
+        public Model1()
+            : base("name=Model1")
+        {
+        }
+
+        public virtual DbSet<People> People { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+        }
+    }
+
+    public partial class People
+    {
+        public int Id { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string Name { get; set; }
+
+        public int Age { get; set; }
+    }
+
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+        private void DeletePeopleOver30_Click(object sender, RoutedEventArgs e)
+        {
+            using (var db = new Model1())
+            {
+                var peopleOver30 = db.People.Where(p => p.Age > 30).ToList();
+                db.People.RemoveRange(peopleOver30);
+                db.SaveChanges();
+            }
+        }
+    }
+    public class Person
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+    }
+
+    <Grid>
+        <Button Content="Delete People Over 30" Click="DeletePeopleOver30_Click" />
+    </Grid>
+
+---------------------------------------------------------------------------------------------------------
+
+10 вар) результат первого поля делить на второе
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="First Number:" />
+        <TextBox x:Name="FirstNumberTextBox" Grid.Row="0" Grid.Column="1" />
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Second Number:" />
+        <TextBox x:Name="SecondNumberTextBox" Grid.Row="1" Grid.Column="1" />
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Result:" />
+        <TextBox x:Name="ResultTextBox" Grid.Row="2" Grid.Column="1" IsReadOnly="True" />
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+
+            FirstNumberTextBox.TextChanged += OnTextChanged;
+            SecondNumberTextBox.TextChanged += OnTextChanged;
+        }
+
+        private void OnTextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            UpdateResult();
+        }
+
+        private void UpdateResult()
+        {
+            if (double.TryParse(FirstNumberTextBox.Text, out double firstNumber) &&
+                double.TryParse(SecondNumberTextBox.Text, out double secondNumber) &&
+                secondNumber != 0 && firstNumber != 0)
+            {
+                ResultTextBox.Text = (firstNumber / secondNumber).ToString();
+            }
+            else
+            {
+                ResultTextBox.Text = string.Empty;
+            }
+        }
+    }
+
+    public class NonZeroConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value is string str)
+            {
+                return !string.IsNullOrEmpty(str) && !str.Equals("0");
+            }
+            return false;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+------------------------------------------------------------------------------------------------------------------
+
+атрибут валидации на англ буквы
+
+    <Grid>
+        <TextBox x:Name="nameTextBox" 
+         Text="{Binding Path=Name, 
+                   UpdateSourceTrigger=PropertyChanged, 
+                   ValidatesOnDataErrors=True, 
+                   NotifyOnValidationError=True}" Margin="138,0,180,193" Height="140" VerticalAlignment="Bottom" />
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            DataContext = new MainWindowViewModel();
+            nameTextBox.TextChanged += nameTextBox_TextChanged;
+        }
+        private void nameTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var vm = (MainWindowViewModel)DataContext;
+            var results = new List<System.ComponentModel.DataAnnotations.ValidationResult>();
+            var context = new ValidationContext(vm, null, null) { MemberName = nameof(vm.Name) };
+
+            if (!Validator.TryValidateProperty(vm.Name, context, results))
+            {
+                foreach (var error in results)
+                {
+                    // Обработка ошибок валидации
+                    MessageBox.Show(error.ErrorMessage);
+                }
+            }
+        }
+    }
+    public class MainWindowViewModel : ViewModelBase
+    {
+        private string _name;
+
+        [RegularExpression(@"^[a-zA-Z]*$", ErrorMessage = "Разрешены только английские буквы")]
+        public string Name
+        {
+            get { return _name; }
+            set
+            {
+                _name = value;
+                OnPropertyChanged(nameof(Name));
+            }
+        }
+    }
+    public class ViewModelBase : INotifyPropertyChanged
+    {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+    }
+
+-------------------------------------------------------------------------------------------------------------
+
+бд + значения ограничены слайдером
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Button Click="Button_Click" Content="Получить данные" Width="150" Height="30" FontSize="14" />
+            <Slider x:Name="sliderElem" Minimum="1" Maximum="100" Width="300" />
+        </StackPanel>
+        <ScrollViewer Grid.Row="1">
+            <DataGrid x:Name="dgItems">
+            </DataGrid>
+        </ScrollViewer>
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        private SqlConnection connection;
+        public int SliderValue { get; set; }
+        public MainWindow()
+        {
+            InitializeComponent();
+            DataContext = SliderValue;
+            this.Closing += MainWindow_Closing;
+        }
+
+        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Disconnect();
+        }
+
+        private SqlConnection GetConnection()
+        {
+            if (connection == null)
+            {
+                connection = new SqlConnection("Data Source=DESKTOP-3SMK9QM;Initial Catalog=ex1;Integrated Security=True");
+                connection.Open();
+            }
+            return connection;
+        }
+        private void Disconnect()
+        {
+            connection.Close();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            SqlCommand command = new SqlCommand("select Name, Age from People where Age < @param1", GetConnection());
+            command.Parameters.AddWithValue("@param1", sliderElem.Value);
+            try
+            {
+
+                var reader = command.ExecuteReader();
+                var items = new List<OrderModel>();
+
+                while (reader.Read())
+                {
+                    var item = new OrderModel();
+                    item.Name = (string)reader["Name"];
+                    item.Age = (int)reader["Age"];
+                    items.Add(item);
+                }
+                dgItems.ItemsSource = items;
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+    }
+    public class OrderModel
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+    }
+
+--------------------------------------------------------------------------------------
+
+рисование кругов на канвасе
+
+    <Grid>
+        <Canvas x:Name="output" Background="#FFE8E7F5" Margin="10,98,10,10" />
+        <TextBox x:Name="input" Text="0" TextChanged="textBox_TextChanged" Margin="0,22,0,0" Background="#FFE8E7F5" Foreground="#FF150000" SelectionBrush="Black" BorderBrush="#FF0040FF" HorizontalAlignment="Center" VerticalAlignment="Top" Width="140" Height="70"/>
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+        private int previousCount = 0;
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            int count;
+            if (int.TryParse(input.Text, out count))
+            {
+                if (count < previousCount) // это в случае если количество кружков введется меньше чем было
+                {
+                    for (int i = count; i < previousCount; i++)
+                    {
+                        output.Children.RemoveAt(count);
+                    }
+                }
+
+                for (int i = previousCount; i < count; i++) // это наоборот
+                {
+                    Ellipse circle = new Ellipse
+                    {
+                        Width = 50,
+                        Height = 50,
+                        Fill = Brushes.HotPink
+                    };
+                    Canvas.SetLeft(circle, 50 + i * 60);
+                    Canvas.SetTop(circle, 50);
+                    output.Children.Add(circle);
+                }
+                previousCount = count;
+            }
+        }
+    }
+
+----------------------------------------------------------------------------------------------------
+
+рисование линий на канвасе
+
+    <Grid>
+        <Button x:Name="input" Content="Тык" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" Height="43" Width="156" BorderBrush="#FF1200FF" Background="#FFE8E7F5" Click="Button_Click"/>
+        <Canvas x:Name="output" Margin="50,104,50,30" Height="300" Width="700" Background="#FFE8E7F5"/>
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Line line = new Line
+            {
+                X1 = 10,
+                Y1 = 10,
+                X2 = 100,
+                Y2 = 100,
+                StrokeThickness = 3,
+                Stroke = Brushes.Red
+            };
+            Canvas.SetLeft(line, 50);
+            Canvas.SetTop(line, 50);
+            output.Children.Add(line);
+            Line line2 = new Line
+            {
+                X1 = 10,
+                Y1 = 10,
+                X2 = 100,
+                Y2 = 100,
+                Stroke = Brushes.Orange,
+                StrokeThickness = 3,
+                StrokeDashArray = new DoubleCollection { 4, 2 }
+            };
+            Canvas.SetLeft(line2, 100);
+            Canvas.SetTop(line2, 50);
+            output.Children.Add(line2);
+            Line line3 = new Line
+            {
+                X1 = 10,
+                Y1 = 10,
+                X2 = 100,
+                Y2 = 100,
+                Stroke = Brushes.Green,
+                StrokeThickness = 3,
+                StrokeDashArray = new DoubleCollection { 1, 5 }
+            };
+            Canvas.SetLeft(line3, 150);
+            Canvas.SetTop(line3, 50);
+            output.Children.Add(line3);
+            Polyline polyline = new Polyline
+            {
+                Stroke = Brushes.Blue,
+                StrokeThickness = 3
+            };
+            for (int i = 0; i < 70; i++)
+            {
+                double x = i * Math.PI;
+                double y = 40 + 30 * Math.Sin(x / 10);
+                polyline.Points.Add(new Point(x, y));
+            }
+            Canvas.SetLeft(polyline, 250);
+            Canvas.SetTop(polyline, 50);
+            output.Children.Add(polyline);
+            Polyline polyline2 = new Polyline
+            {
+                Stroke = Brushes.Purple,
+                StrokeThickness = 3
+            };
+            for (int i = 0; i < 50; i++)
+            {
+                double y = i * Math.PI;
+                double x = 10 * Math.Sin(y / 2);
+                polyline2.Points.Add(new Point(x, y));
+            }
+            Canvas.SetLeft(polyline2, 500);
+            Canvas.SetTop(polyline2, 50);
+            output.Children.Add(polyline2);
+        }
+    }
+
+----------------------------------------------------------------------------------
+
+статические ресы для 4 кнопок
+
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="FontSize" Value="25" />
+            <Setter Property="Background" Value="LightBlue" />
+            <Setter Property="BorderBrush" Value="DarkBlue" />
+            <Setter Property="BorderThickness" Value="1" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button Content="Button 1" Style="{StaticResource ButtonStyle}" Margin="0,245,468,0" />
+        <Button Content="Button 2" Style="{StaticResource ButtonStyle}" Margin="0,0,552,278" />
+        <Button Content="Button 3" Style="{StaticResource ButtonStyle}" Margin="486,275,0,0" />
+        <Button Content="Button 4" Style="{StaticResource ButtonStyle}" Margin="383,0,0,300" />
+    </Grid>
+
+-------------------------------------------------------------------------------------------------------------
+
+3 кнопки в стак панели
+
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Button 1" />
+            <Button Content="Button 2" />
+            <Button Content="Button 3" />
+        </StackPanel>
+    </Grid>
+
+----------------------------------------------------------------------------------------------------------------
+
+ползунок меняет размер текста
+
+    <Grid>
+        <Slider x:Name="SliderValue" HorizontalAlignment="Left" Margin="52,78,0,0" VerticalAlignment="Top" Width="251" Minimum="10" Maximum="50" Value="16" />
+        <TextBlock HorizontalAlignment="Left" Margin="52,40,0,0" TextWrapping="Wrap" Text="нико нико ниииииииииии" VerticalAlignment="Top" FontSize="{Binding ElementName=SliderValue, Path=Value}"/>
+    </Grid>
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Создайте стиль для CheckBox с установкой параметров шрифта. Используя наследование стилей создайте другой стиль с определением цвета. Примените оба стиля. + есть вриант c textbox
+
+    <Window.Resources>
+        <Style x:Key="BaseStyle" TargetType="CheckBox">
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+        <Style x:Key="SecondStyle" BasedOn="{StaticResource ResourceKey=BaseStyle}" TargetType="CheckBox">
+            <Setter Property="Background" Value="Blue"/>
+            <Setter Property="Foreground" Value="DarkBlue"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <CheckBox Content="CheckBox" Style="{StaticResource BaseStyle}" Margin="200,0,0,0"/>
+        <CheckBox Content="CheckBox" Style="{StaticResource SecondStyle}"/>
+    </Grid>
+
+------------------------------------------------------------------------------------------------------------------
+
+циклическая смена стилей + счетчик
+
+    <Window.Resources>
+        <Style x:Key="ButtonStyle1" TargetType="Button">
+            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+        <Style x:Key="ButtonStyle2" TargetType="Button">
+            <Setter Property="Background" Value="LightGreen"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="NiceButton" Content="Button" HorizontalAlignment="Left" Margin="77,319,0,0" VerticalAlignment="Top" Height="61" Width="145" Click="NiceButton_Click"/>
+        <Menu Margin="0,0,0,399">
+            <MenuItem Header="Нажми на меня" Click="MenuItem_Click"/>
+        </Menu>
+        <Label x:Name="CounterLabel"  Content="Counter" HorizontalAlignment="Left" Margin="265,319,0,0" VerticalAlignment="Top"/>
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        private int clickCount = 0;
+        private bool isStyle1 = true;
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void NiceButton_Click(object sender, RoutedEventArgs e)
+        {
+            clickCount++;
+            if (isStyle1)
+            {
+                NiceButton.Style = FindResource("ButtonStyle2") as Style;
+            }
+            else
+            {
+                NiceButton.Style = FindResource("ButtonStyle1") as Style;
+            }
+            isStyle1 = !isStyle1;
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            CounterLabel.Content = $"Количество нажатий: {clickCount}";
+            if (clickCount % 2 == 0)
+            {
+                CounterLabel.Foreground = Brushes.Red;
+            }
+            else
+            {
+                CounterLabel.Foreground = Brushes.Green;
+            }
+        }
+    }
+
+------------------------------------------------------------------------------------------------
+
+Разместите кнопку «Загрузить» по нажатию на которую данные из массива объектов (содержит номер карты, имя и фамилию и срок действия) загружаются в таблицу card базы данных SQL
+
+    <appSettings>
+		<add key="RemoteDirectory" value="Some Text Here" />
+	</appSettings>
+	<connectionStrings>
+		<add name="DefaultConnection" connectionString="Data Source=DESKTOP-3SMK9QM;Initial Catalog=ex1;Integrated Security=True;Encrypt=False"/>
+	</connectionStrings>
+
+    <Grid>
+        <Button Content="Загрузить" HorizontalAlignment="Left" Margin="52,78,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" />
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LoadData();
+        }
+
+        private void LoadData()
+        {
+            var cards = new[]
+            {
+                new { CardNumber = "1234", FirstName = "John", LastName = "Doe", ExpiryDate = "12/25" },
+                new { CardNumber = "2345", FirstName = "Jane", LastName = "Smith", ExpiryDate = "11/24" },
+                new { CardNumber = "3456", FirstName = "Alice", LastName = "Johnson", ExpiryDate = "10/23" }
+            };
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString))
+                {
+                    connection.Open();
+
+                    foreach (var card in cards)
+                    {
+                        string query = "INSERT INTO CARDS (Card_number, FirstName, SecondName, ExpiryDate) VALUES (@CardNumber, @FirstName, @LastName, @ExpiryDate)";
+
+                        using (SqlCommand command = new SqlCommand(query, connection))
+                        {
+                            command.Parameters.AddWithValue("@CardNumber", card.CardNumber);
+                            command.Parameters.AddWithValue("@FirstName", card.FirstName);
+                            command.Parameters.AddWithValue("@LastName", card.LastName);
+                            command.Parameters.AddWithValue("@ExpiryDate", card.ExpiryDate);
+
+                            command.ExecuteNonQuery();
+                        }
+                    }
+
+                    MessageBox.Show("Данные успешно загружены.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка загрузки данных: {ex.Message}");
+            }
+        }
+    }
+
+--------------------------------------------------------------------------------------------------------------
+
+Разработайте программу на С#. Разместите поле ввода для цены и кнопку «Посчитать» по нажатию на которую считается общая сумма вкладов пользователей из таблицы users базы данных SQL (содержат Id, name, sum). Используйте ADO.net
+
+CREATE TABLE users (
+    Id INT PRIMARY KEY,
+    name VARCHAR(50),
+    sum DECIMAL(10,2)
+)
+
+INSERT INTO users (Id, name, sum) VALUES
+(1, 'Иван', 1000.50),
+(2, 'Мария', 2500.00),
+(3, 'Петр', 750.75),
+(4, 'Анна', 1750.25),
+(5, 'Сергей', 2100.00);
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txtAmount" Margin="10" />
+        <Button x:Name="btnCalculate" Content="Посчитать" Margin="10" Grid.Row="1" Click="btnCalculate_Click" />
+        <TextBlock x:Name="tbResult" Margin="10" Grid.Row="2" />
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        private string connectionString = "Data Source=DESKTOP-3SMK9QM;Initial Catalog=ex1;Integrated Security=True;Encrypt=False";
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void btnCalculate_Click(object sender, RoutedEventArgs e)
+        {
+            decimal desiredAmount = decimal.Parse(txtAmount.Text);
+            decimal totalSum = CalculateTotalSum(desiredAmount);
+            tbResult.Text = $"Total sum of deposits: {totalSum:C2}";
+        }
+
+        private decimal CalculateTotalSum(decimal desiredAmount)
+        {
+            decimal totalSum = 0;
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                string query = "SELECT SUM(sum) AS TotalSum FROM users WHERE sum >= @DesiredAmount";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@DesiredAmount", desiredAmount);
+
+                object result = command.ExecuteScalar();
+                if (result != DBNull.Value)
+                {
+                    totalSum = (decimal)result;
+                }
+            }
+
+            return totalSum;
+        }
+    }
+
+-----------------------------------------------------------------------------------------------------------------------
+
+entity code first создать связанные таблицы, наложить ограничения, добавить несколько записей через элементы управления
+
+use ex1;
+CREATE TABLE Companies (
+    CompanyId INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL,
+    Address NVARCHAR(200) NOT NULL,
+    CONSTRAINT UC_CompanyName UNIQUE (Name)
+);
+
+CREATE TABLE Employees (
+    EmployeeId INT PRIMARY KEY IDENTITY(1,1),
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    Age INT CHECK (Age BETWEEN 18 AND 100),
+    CompanyId INT NOT NULL,
+    CONSTRAINT FK_Employees_Companies FOREIGN KEY (CompanyId)
+        REFERENCES Companies(CompanyId)
+);
+
+INSERT INTO Companies (Name, Address)
+VALUES
+    ('Acme Inc.', '123 Main St, Anytown USA'),
+    ('Globex Corporation', '456 Park Ave, Bigcity NY'),
+    ('Stark Industries', '789 Avengers Way, Metrocity CA');
+
+INSERT INTO Employees (FirstName, LastName, Age, CompanyId)
+VALUES
+    ('John', 'Doe', 35, 1),
+    ('Jane', 'Doe', 28, 1),
+    ('Bob', 'Smith', 42, 2),
+    ('Alice', 'Johnson', 31, 2),
+    ('Tony', 'Stark', 45, 3),
+    ('Pepper', 'Potts', 38, 3);
+
+     public class Company
+    {
+        public int CompanyId { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+    }
+
+    public class Employee
+    {
+        public int EmployeeId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+        public int CompanyId { get; set; }
+        public virtual Company Company { get; set; }
+    }
+
+    public class CompaniesDbContext : DbContext
+    {
+        public CompaniesDbContext(string connectionString) : base(connectionString)
+        {
+        }
+
+        public DbSet<Company> Companies { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+    }
+
+    /*public class Program
+    {
+        static void Main(string[] args)
+        {
+            string connectionString = "Data Source=DESKTOP-3SMK9QM;Initial Catalog=ex1;Integrated Security=True;Encrypt=False;";
+
+            using (var context = new CompaniesDbContext(connectionString))
+            {
+                // Создание новой компании
+                var newCompany = new Company { Name = "Acme Inc.", Address = "123 Main St, Anytown USA" };
+                context.Companies.Add(newCompany);
+                context.SaveChanges();
+
+                // Создание нового сотрудника
+                var newEmployee = new Employee
+                {
+                    FirstName = "John",
+                    LastName = "Doe",
+                    Age = 35,
+                    CompanyId = newCompany.CompanyId
+                };
+                context.Employees.Add(newEmployee);
+                context.SaveChanges();
+
+                // Получение списка всех компаний
+                var companies = context.Companies.ToList();
+                foreach (var company in companies)
+                {
+                    Console.WriteLine($"Company: {company.Name} - {company.Address}");
+                }
+
+                // Получение списка всех сотрудников
+                var employees = context.Employees.ToList();
+                foreach (var employee in employees)
+                {
+                    Console.WriteLine($"Employee: {employee.FirstName} {employee.LastName} - Age: {employee.Age} - Company: {employee.Company.Name}");
+                }
+            }
+        }
+    }*/
+    public partial class MainWindow : Window
+    {
+        private readonly CompaniesDbContext _dbContext;
+
+        public MainWindow()
+        {
+            InitializeComponent();
+            _dbContext = new CompaniesDbContext("Data Source=DESKTOP-3SMK9QM;Initial Catalog=ex1;Integrated Security=True;Encrypt=False;");
+            LoadData();
+        }
+
+        private void LoadData()
+        {
+            CompaniesGrid.ItemsSource = _dbContext.Companies.ToList();
+            EmployeesGrid.ItemsSource = _dbContext.Employees.ToList();
+        }
+
+        private void AddCompany_Click(object sender, RoutedEventArgs e)
+        {
+            // Добавление новой компании
+            var newCompany = new Company { Name = "New Company", Address = "New Address" };
+            _dbContext.Companies.Add(newCompany);
+            _dbContext.SaveChanges();
+            LoadData();
+        }
+
+        private void AddEmployee_Click(object sender, RoutedEventArgs e)
+        {
+            // Добавление нового сотрудника
+            var newEmployee = new Employee
+            {
+                FirstName = "New",
+                LastName = "Employee",
+                Age = 30,
+                CompanyId = _dbContext.Companies.FirstOrDefault().CompanyId
+            };
+            _dbContext.Employees.Add(newEmployee);
+            _dbContext.SaveChanges();
+            LoadData();
+        }
+    }
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ToolBar Grid.Row="0">
+            <Button Content="Add Company" Click="AddCompany_Click" />
+            <Button Content="Add Employee" Click="AddEmployee_Click" />
+        </ToolBar>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <DataGrid x:Name="CompaniesGrid" Grid.Column="0" Margin="10" AutoGenerateColumns="True" />
+            <DataGrid x:Name="EmployeesGrid" Grid.Column="1" Margin="10" AutoGenerateColumns="True" />
+        </Grid>
+    </Grid>
+
+-------------------------------------------------------------------------------------------------------------------
+
+поиск по критерию
+
+CREATE TABLE Courses (
+    Id INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    Description TEXT,
+    Credits INT NOT NULL
+);
+
+CREATE TABLE Enrollments (
+    Id INT PRIMARY KEY,
+    StudentId INT NOT NULL,
+    CourseId INT NOT NULL,
+    Grade DECIMAL(5,2) NOT NULL,
+    FOREIGN KEY (CourseId) REFERENCES Courses(Id)
+);
+
+INSERT INTO Courses (Id, Name, Description, Credits) VALUES
+(1, 'Introduction to Computer Science', 'Covers the fundamentals of computer science', 3),
+(2, 'Database Management Systems', 'Focuses on database design and implementation', 4),
+(3, 'Algorithms and Data Structures', 'Explores efficient algorithms and data structures', 4),
+(4, 'Web Development with ASP.NET', 'Teaches web application development using ASP.NET', 3),
+(5, 'Object-Oriented Programming with C++', 'Introduces object-oriented programming concepts in C++', 4);
+
+INSERT INTO Enrollments (Id, StudentId, CourseId, Grade) VALUES
+(1, 101, 1, 4.0),
+(2, 101, 2, 3.5),
+(3, 102, 1, 3.8),
+(4, 102, 3, 4.0),
+(5, 103, 2, 3.2),
+(6, 103, 4, 3.7),
+(7, 104, 3, 4.0),
+(8, 104, 5, 3.9),
+(9, 105, 1, 3.5),
+(10, 105, 4, 3.6);
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBox x:Name="searchTextBox" Width="200" Margin="0,0,10,0" />
+            <Button x:Name="searchButton" Content="Search" Click="searchButton_Click" />
+        </StackPanel>
+
+        <ListView x:Name="resultListView" Grid.Row="1" Margin="10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" Width="50" DisplayMemberBinding="{Binding Id}" />
+                    <GridViewColumn Header="Name" Width="150" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Grade" Width="50" DisplayMemberBinding="{Binding Grade}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        private string connectionString = "Data Source=DESKTOP-3SMK9QM;Initial Catalog=ex1;Integrated Security=True";
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            string searchCriteria = searchTextBox.Text;
+            LoadDataFromDatabase(searchCriteria);
+        }
+
+        private void LoadDataFromDatabase(string searchCriteria)
+        {
+            resultListView.Items.Clear();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT Courses.Name, Enrollments.Grade " +
+                              "FROM Enrollments " +
+                              "JOIN Courses ON Enrollments.CourseId = Courses.Id " +
+                              "WHERE Courses.Name LIKE @SearchCriteria";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@SearchCriteria", "%" + searchCriteria + "%");
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            resultListView.Items.Add(new
+                            {
+                                Name = reader["Name"].ToString(),
+                                Grade = reader["Grade"].ToString()
+                            });
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+------------------------------------------------------------------------------------------------------------
+
+Разработайте программу на С# WPF. В окне разместите кнопку «Найти» и текстовое поле с подписью «Год» по нажатию на которую данные из таблицы Goods базы данных SQL (содержит название товара, id и год выпуска), которые соответствуют введенному пользователем году должны появиться в окне в виде таблицы. Использовать классы Connection и Command.
+
+use ex1;
+CREATE TABLE Goods (
+    Id INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    ReleaseYear INT NOT NULL
+);
+
+INSERT INTO Goods (Id, Name, ReleaseYear) VALUES
+(1, 'Product A', 2019),
+(2, 'Product B', 2020),
+(3, 'Product C', 2021),
+(4, 'Product D', 2019),
+(5, 'Product E', 2020),
+(6, 'Product F', 2021),
+(7, 'Product G', 2019),
+(8, 'Product H', 2020),
+(9, 'Product I', 2021),
+(10, 'Product J', 2019);
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBox x:Name="YearTextBox" Width="100" Margin="0,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Label Content="Year" VerticalAlignment="Center" />
+            <Button x:Name="FindButton" Content="Find" Margin="10,0,0,0" Click="FindButton_Click" />
+        </StackPanel>
+
+        <DataGrid x:Name="ProductsDataGrid" Grid.Row="1" Margin="10" AutoGenerateColumns="True" />
+    </Grid>
+
+    public partial class MainWindow : Window
+    {
+        private const string ConnectionString = "Data Source=DESKTOP-3SMK9QM;Initial Catalog=ex1;Integrated Security=True";
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void FindButton_Click(object sender, RoutedEventArgs e)
+        {
+            int year;
+            if (int.TryParse(YearTextBox.Text, out year))
+            {
+                DisplayProductsByYear(year);
+            }
+            else
+            {
+                MessageBox.Show("Пожалуйста, введите год в числовом формате.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void DisplayProductsByYear(int year)
+        {
+            DataTable productTable = new DataTable();
+
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                connection.Open();
+
+                string query = "SELECT Id, Name, ReleaseYear FROM Goods WHERE ReleaseYear = @Year";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Year", year);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                adapter.Fill(productTable);
+            }
+
+            ProductsDataGrid.ItemsSource = productTable.DefaultView;
+        }
+    }
+
+-----------------------------------------------------------------------------------------------------------
+
+Разработайте программу на C# WPF. В окне разместите таблицу связанную c XML/Json (на выбор) файлом. Используйте архитектуру MVVM.
+
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <id>1</id>
+    <name>John Doe</name>
+    <age>20</age>
+    <major>Computer Science</major>
+  </student>
+  <student>
+    <id>2</id>
+    <name>Jane Smith</name>
+    <age>22</age>
+    <major>Business</major>
+  </student>
+  <student>
+    <id>3</id>
+    <name>Bob Johnson</name>
+    <age>21</age>
+    <major>Engineering</major>
+  </student>
+  <student>
+    <id>4</id>
+    <name>Sarah Lee</name>
+    <age>19</age>
+    <major>Biology</major>
+  </student>
+  <student>
+    <id>5</id>
+    <name>Mike Brown</name>
+    <age>23</age>
+    <major>Economics</major>
+  </student>
+</students>
+
+    <DataGrid ItemsSource="{Binding Students}" SelectedItem="{Binding SelectedStudent}" AutoGenerateColumns="False" Margin="20">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Age" Binding="{Binding Age}" />
+                <DataGridTextColumn Header="Major" Binding="{Binding Major}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Margin="20,0,0,0" VerticalAlignment="Center" Grid.Column="1">
+            <TextBlock Text="{Binding SelectedStudent.Name}" FontSize="18" FontWeight="Bold" />
+            <TextBlock Text="{Binding SelectedStudent.Age}" Margin="0,10,0,0" />
+            <TextBlock Text="{Binding SelectedStudent.Major}" Margin="0,10,0,0" />
+        </StackPanel>
+
+    public class Student
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Major { get; set; }
+    }
+
+    // ViewModel - MainViewModel.cs
+    public class MainViewModel : INotifyPropertyChanged
+    {
+        private List<Student> _students;
+        private Student _selectedStudent;
+
+        public List<Student> Students
+        {
+            get { return _students; }
+            set
+            {
+                _students = value;
+                OnPropertyChanged(nameof(Students));
+            }
+        }
+
+        public Student SelectedStudent
+        {
+            get { return _selectedStudent; }
+            set
+            {
+                _selectedStudent = value;
+                OnPropertyChanged(nameof(SelectedStudent));
+            }
+        }
+
+        public MainViewModel()
+        {
+            LoadStudents();
+        }
+
+        private void LoadStudents()
+        {
+            // Загрузка студентов из XML-файла
+            Students = LoadStudentsFromXml("students.xml");
+        }
+
+        private List<Student> LoadStudentsFromXml(string filename)
+        {
+            var students = new List<Student>();
+
+            XDocument doc = XDocument.Load(filename);
+            var studentElements = doc.Root.Elements("student");
+
+            foreach (var element in studentElements)
+            {
+                var student = new Student
+                {
+                    Id = (int)element.Element("id"),
+                    Name = (string)element.Element("name"),
+                    Age = (int)element.Element("age"),
+                    Major = (string)element.Element("major")
+                };
+                students.Add(student);
+            }
+
+            return students;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+    }
+
+    // View - MainWindow.xaml.cs
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            DataContext = new MainViewModel();
+        }
+    }
+
+--------------------------------------------------------------------------------------------------
+
+страницы и доки
+
+<Grid x:Name="MyGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+    </Grid>
+
+    using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Runtime.Remoting.Contexts;
+using System.Data.Entity.Infrastructure;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.Collections.ObjectModel;
+using System.Xml.Linq;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using Newtonsoft.Json.Linq;
+using System.IO;
+using Newtonsoft.Json;
+using System.Xml.Serialization;
+
+namespace загрузить_имя_или_возраст
+{
+    public interface IPage
+    {
+        void Render(Grid container);
+    }
+
+    // Конкретные реализации страниц
+    public class SkillsPage : IPage
+    {
+        public void Render(Grid container)
+        {
+            // Создание элементов UI для отображения навыков
+            TextBlock skillsLabel = new TextBlock { Text = "Skills" };
+            container.Children.Add(skillsLabel);
+        }
+    }
+
+    public class EducationPage : IPage
+    {
+        public void Render(Grid container)
+        {
+            // Создание элементов UI для отображения образования
+            TextBlock educationLabel = new TextBlock { Text = "Education" };
+            container.Children.Add(educationLabel);
+        }
+    }
+
+    // Интерфейс документа
+    public interface IDocument
+    {
+        void AddPage(IPage page);
+        void Render(Grid container);
+    }
+
+    // Конкретные реализации документов
+    public class Resume : IDocument
+    {
+        private List<IPage> pages = new List<IPage>();
+
+        public void AddPage(IPage page)
+        {
+            pages.Add(page);
+        }
+
+        public void Render(Grid container)
+        {
+            // Очистка контейнера
+            container.Children.Clear();
+
+            // Создание элементов UI для отображения резюме
+            TextBlock resumeLabel = new TextBlock { Text = "Resume" };
+            container.Children.Add(resumeLabel);
+
+            // Отображение страниц
+            foreach (var page in pages)
+            {
+                page.Render(container);
+            }
+        }
+    }
+
+    public class Diploma : IDocument
+    {
+        private List<IPage> pages = new List<IPage>();
+
+        public void AddPage(IPage page)
+        {
+            pages.Add(page);
+        }
+
+        public void Render(Grid container)
+        {
+            // Очистка контейнера
+            container.Children.Clear();
+
+            // Создание элементов UI для отображения диплома
+            TextBlock diplomaLabel = new TextBlock { Text = "Diploma" };
+            container.Children.Add(diplomaLabel);
+
+            // Отображение страниц
+            foreach (var page in pages)
+            {
+                page.Render(container);
+            }
+        }
+    }
+
+    public class PageFactory
+    {
+        public static IPage CreatePage(string type)
+        {
+            switch (type)
+            {
+                case "SkillsPage":
+                    return new SkillsPage();
+                case "EducationPage":
+                    return new EducationPage();
+                default:
+                    throw new ArgumentException($"Unknown page type: {type}");
+            }
+        }
+    }
+
+    public class DocumentFactory
+    {
+        public static IDocument CreateDocument(string type)
+        {
+            switch (type)
+            {
+                case "Resume":
+                    return new Resume();
+                case "Diploma":
+                    return new Diploma();
+                default:
+                    throw new ArgumentException($"Unknown document type: {type}");
+            }
+        }
+    }
+
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+
+            // Создание резюме
+            IDocument resume = DocumentFactory.CreateDocument("Resume");
+            resume.AddPage(PageFactory.CreatePage("SkillsPage"));
+            resume.AddPage(PageFactory.CreatePage("EducationPage"));
+
+            // Создание диплома
+            IDocument diploma = DocumentFactory.CreateDocument("Diploma");
+            diploma.AddPage(PageFactory.CreatePage("SkillsPage"));
+
+            // Создание контейнера для отображения документов
+            Grid documentContainer = new Grid();
+
+            // Отображение резюме
+            resume.Render(documentContainer);
+
+            // Отображение диплома
+            diploma.Render(documentContainer);
+
+            // Добавление контейнера на форму
+            MyGrid.Children.Add(documentContainer);
+        }
+    }
+}
+
+------------------------------------------------------------------------------------------------
+
+потокобезопасный класс Синглтон
+
+public class BstuNet
+    {
+        private static readonly Lazy<BstuNet> instance = new Lazy<BstuNet>(() => new BstuNet());
+        private List<Server> servers;
+
+        private BstuNet()
+        {
+            servers = new List<Server>
+        {
+            new Server("Server 1", "192.168.1.100"),
+            new Server("Server 2", "192.168.1.101"),
+            new Server("Server 3", "192.168.1.102")
+        };
+        }
+
+        public static BstuNet Instance
+        {
+            get
+            {
+                return instance.Value;
+            }
+        }
+
+        public Server GetServer(int index)
+        {
+            return servers[index];
+        }
+        static void Main(string[] args)
+        {
+            // Получаем доступ к первому серверу несколько раз
+            for (int i = 0; i < 5; i++)
+            {
+                Server server1 = BstuNet.Instance.GetServer(0);
+                Console.WriteLine($"Server 1: Name = {server1.Name}, IP Address = {server1.IpAddress}");
+            }
+
+            // Получаем доступ ко второму серверу несколько раз
+            for (int i = 0; i < 5; i++)
+            {
+                Server server2 = BstuNet.Instance.GetServer(1);
+                Console.WriteLine($"Server 2: Name = {server2.Name}, IP Address = {server2.IpAddress}");
+            }
+
+            // Получаем доступ к третьему серверу несколько раз
+            for (int i = 0; i < 5; i++)
+            {
+                Server server3 = BstuNet.Instance.GetServer(2);
+                Console.WriteLine($"Server 3: Name = {server3.Name}, IP Address = {server3.IpAddress}");
+            }
+        }
+    }
+
+    public class Server
+    {
+        public string Name { get; }
+        public string IpAddress { get; }
+
+        public Server(string name, string ipAddress)
+        {
+            Name = name;
+            IpAddress = ipAddress;
+        }
+    }
+
+----------------------------------------------------------------------------------------------------------------------
+
+паттерн прокси
+
+public interface ICalculator
+    {
+        int Add(int a, int b);
+        int Subtract(int a, int b);
+    }
+
+    // Реальный объект, реализующий основные операции
+    public class RealCalculator : ICalculator
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+        public int Subtract(int a, int b)
+        {
+            return a - b;
+        }
+    }
+
+    // Класс-заместитель, контролирующий доступ к RealCalculator
+    public class CalculatorProxy : ICalculator
+    {
+        private RealCalculator realCalculator;
+
+        public int Add(int a, int b)
+        {
+            if (realCalculator == null)
+            {
+                realCalculator = new RealCalculator();
+            }
+            return realCalculator.Add(a, b);
+        }
+
+        public int Subtract(int a, int b)
+        {
+            if (realCalculator == null)
+            {
+                realCalculator = new RealCalculator();
+            }
+            return realCalculator.Subtract(a, b);
+        }
+    }
+
+    // Пример использования
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ICalculator calculator = new CalculatorProxy();
+            int result1 = calculator.Add(5, 3);
+            int result2 = calculator.Subtract(10, 4);
+
+            Console.WriteLine($"Addition result: {result1}");
+            Console.WriteLine($"Subtraction result: {result2}");
+        }
+    }
+
+-----------------------------------------------------------------------------------
+
+*/
