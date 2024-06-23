@@ -1,0 +1,17 @@
+div {
+    text-align: -webkit-center;
+    padding: 15px;
+    font-family: Consolas;
+}
+
+.wrapTable {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    font-family: Consolas;
+}
+
+.mainDiv {
+    border: 14px ridge rgba(211, 220, 50, .6);
+}

@@ -1,0 +1,17 @@
+.fl {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: left;
+}

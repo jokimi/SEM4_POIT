@@ -1,0 +1,14 @@
+.symbols {
+    margin-top: 40px;
+    background-color: #d9d9d9;
+    display: block;
+    width: 1473px;
+}
+
+.symbol{
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
