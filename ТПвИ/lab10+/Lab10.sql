@@ -1,0 +1,16 @@
+﻿use javalab9;
+
+CREATE TABLE teachers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name NVARCHAR(50) NOT NULL,
+  email NVARCHAR(100) NOT NULL UNIQUE,
+  subject NVARCHAR(255) NOT NULL
+);
+
+
+CREATE TABLE telegram (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name NVARCHAR(50) NOT NULL,
+  category NVARCHAR(100) NOT NULL,
+  subs int NOT NULL
+);
